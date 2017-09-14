@@ -1,0 +1,55 @@
+{{ partial "header.html" . }}
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image">
+      <div class="container">
+        <div class="row">           
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <img src="{{ .Site.BaseURL }}/img/placeholder.jpg" class="img-circle" alt="Ezekiel Haggart">
+                <h1>{{ .Title }}</h1>
+                <hr class="small">
+                <span class="subheading">{{ .Description }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+
+  <!-- Main Content -->
+  
+  <!-- Main Content -->
+    <centre>
+    <div class="container .text-center">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+         <p class="about-text">
+          <span class="fa fa-briefcase about-icon fa-fw" aria-hidden="true"></span>Previously a <strong>Fraud Analyst</strong> at <strong>EQC</strong> and Business Analyst at FinTech startup <strong>Crank Software Solutions</strong> 
+          <p class="about-text">
+            <span class="fa fa-graduation-cap fa-fw" aria-hidden="true"></span>
+          <strong>Bachelors in Economics </strong> (Victoria University Wellington)
+          </p>
+          <p class="about-text">
+            <span class="fa fa-code fa-fw" aria-hidden="true"></span>Solving problems with<strong>  SQL  </strong>  <strong>  R  </strong> <strong>  Python  </strong> <strong>  Excel/VBA  </strong>
+          </p>
+  
+        </div>
+      </div>
+    </div>
+  </centre>
+
+  
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto"> 
+         <p class="about-text">
+          {{ .Content }}  
+         </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+{{ partial "footer.html" . }}
