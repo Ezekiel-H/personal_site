@@ -133,7 +133,7 @@
 }
 
 
-header.masthead .site-heading h1 {
+header.masthead .page-heading, header.masthead .site-heading h1 {
   color: #333333 !important;
   font-size: 72px !important;
   text-align: center !important;
@@ -149,3 +149,8 @@ header.masthead .site-heading h1 {
     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+
+.mx-auto {
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
