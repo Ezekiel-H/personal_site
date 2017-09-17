@@ -1,4 +1,4 @@
-baseurl = "https://ezekiel.nz/public"
+baseurl = "https://ezekiel.nz/public/"
 title = "Ezekiel Haggart"
 theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
@@ -31,7 +31,7 @@ googleAnalytics = "UA-105595834-1"
 
 [[menu.main]]
   name = "Projects"
-  url = "/shiny/"
+  url = "https://ezekiel.nz/shiny/"
   weight = -180
 [[menu.main]]
   name = "About"
