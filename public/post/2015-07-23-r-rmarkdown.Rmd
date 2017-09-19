@@ -16,7 +16,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 You can embed an R code chunk like this:
 
-<iframe src="https://ezekiel.nz/shiny/ChristchurchElection/" width="900" height="400" style="border: none;"></iframe>
+<iframe src="https://ezekiel.nz/shiny/ChristchurchElection/" width="750" height="350" style="border: none;"></iframe>
 
 ```{r cars}
 summary(cars)

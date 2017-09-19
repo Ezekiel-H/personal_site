@@ -127,6 +127,10 @@
     background-color: #ffffff !important;
 }
 
+.page-masthead {
+  margin-top: 50px !important;
+}
+
 .subheading {
   color: #333333 !important;
   text-align: center !important;
