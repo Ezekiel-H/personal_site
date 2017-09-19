@@ -1,4 +1,11 @@
     <hr>
+    
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+    
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -7,7 +14,7 @@
                   <ul class="list-inline text-center">
                     {{ with .Site.Params.email }}
                       <li>
-                        <a href="mailto:{{ . }}">
+                        <a href="mailto:{{ . }}" data-toggle="tooltip">
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
@@ -17,7 +24,7 @@
                     {{ end }}
                     {{ range .Site.Params.social }}
                     <li>
-                      <a href="{{ .url }}">
+                      <a href="{{ .url }}" data-toggle="tooltip">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
@@ -33,13 +40,14 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ .Site.BaseURL }}/js/clean-blog.js"></script>
+    <script src="{{ .Site.BaseURL }}js/clean-blog.js"></script>
+
 
     {{ template "_internal/google_analytics.html" . }}
 
