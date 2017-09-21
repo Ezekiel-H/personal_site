@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analysis</title>
+      <link>/tags/analysis/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Highcharter</title>
+      <link>/tags/highcharter/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/highcharter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nz Election 2017</title>
+      <link>/tags/nz-election-2017/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nz-election-2017/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Plot</title>
