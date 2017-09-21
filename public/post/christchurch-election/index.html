@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Christchurch Election -- Ezekiel Haggart</title>
+
+    
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
+
+    
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+
+    
+    <link href="/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-light fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Ezekiel Haggart</a>
+            </div>
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://ezekiel.nz/shiny/">Projects</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/cv/">Vitae</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+
+
+    
+    
+    
+    <header class="masthead page-masthead">
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Christchurch Election</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">
+                 
+  A 3 minute read,
+
+Posted by <a href="#">Ezekiel Haggart</a> on Thu, Sep 21, 21097
+<br />
+In <a href="/categories/r">R</a>
+
+<br />
+Tags <a href="/tags/analysis">analysis</a>, <a href="/tags/highcharter">highcharter</a>, <a href="/tags/nz-election-2017">nz election 2017</a>
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <p>Christchurch is New Zealands 2nd largest city and in this 2017 election cycle it is a key prise any for the political parties. This analysis will look at Christchurchs past three election cycles in 2008 2011 and 2014 to better put in context the upcoming election result. The analysis was built using data sourced from <a href="https://data.govt.nz/">data.govt.nz</a> and <a href="http://www.elections.org.nz/research-statistics">elections.org.nz</a>. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</p>
+<p>A bit of quick background NZ has 120(most of the time) sitting members of parliment with 64 general electorate seats (63 in 2008 and 2011) and 7 Maori electorate seats. This leaves a total of 49 seats to be allocated proportionally by the party vote once the allocation of electorate seats is accounted for. This is a rather more complicated than needs to be entered into in this assessment. A good breakdown can be found on <a href="https://thespinoff.co.nz/politics/14-09-2017/mmp-maths-how-party-vote-percentages-become-seats-in-parliament/">Spinoffs Article</a>.</p>
+<p>Christchurch residents elect 7 MP’s from the electoral candidates. Christchurch based on the enrolled population for those 7 electorates represents 10.5% of the party vote with 49 list seats that allows another 5 seats from the Christchurch. In reality it’s not that simple but the real affect is so minor it will not be elaborated on here.</p>
+<p>All the graphs are interactive and you can take off any of the parties/year by using clicking the relevant parties/year.</p>
+<iframe src="https://ezekiel.nz/shiny/Widgets/ChchElection/chchelection_chart1.html" width="750" height="550" style="border: none;">
+</iframe>
+<p>Looking at the party vote in Christchurch grouping the dataset by year and party this graph shows Chch is a land of the major parties with National Labour Greens and NZ first taking up the lions share of the vote. the 2008 to 2011 showed the most dramatic shift from Labour to National while Greens and NZF continue to make ground into 2014. The minor parties show Act has become all but irrelavant since 2008’s high.</p>
+<iframe src="https://ezekiel.nz/shiny/Widgets/ChchElection/chchelection_chart2.html" width="750" height="550" style="border: none;">
+</iframe>
+<p>Grouped by year and electorate this Graph shows the winning candidate of each electorate along with the margin of victory by votes. Notice Selywn and Christchurch East are pretty safe seats while the Wimak Cenral and Port Hills are all up for Grabs. In 2011 Christcuhrch central was decided by only 47 votes.</p>
+<hr>
+<div id="christchurch-region-shiny-app" class="section level2">
+<h2>Christchurch Region Shiny App</h2>
+<p>Two shapefiles (stats.nz’s)[stats.govt.nz] NZ electorate maps and (LINZ’s)[LINZ.govt.nz] urban area maps were combined using ARC before being read into R. The Shiny app displays an interactive visualisation for Electorate and Party votes over the previous three elections.</p>
+<iframe src="https://ezekiel-h.shinyapps.io/christchurchelection2/" width="750" height="550" style="border: none;">
+</iframe>
+<hr>
+</div>
+<div id="christchurch-demographics" class="section level2">
+<h2>Christchurch Demographics</h2>
+<p>All these assessments seem pretty straight forward by what about the 5% party vote threshold affecting the relevent party vote and does NZ’s younger demographic and better enrollment impact the outcome?</p>
+<p>Maybe. I ran out of time to get this put togeather before the election so below you can see Christchurch vs NZ age distribution for both enrolled and represented voters. It shows Christchurch has a higher electorate turnout and a younger distribution than the general NZ population. This graph also demonstrates how impactful the unenrolled 18-24 group has on distorting the age demographic in NZ.</p>
+<iframe src="https://ezekiel.nz/shiny/Widgets/ChchElection/chchelection_chart3.html" width="750" height="550" style="border: none;">
+</iframe>
+</div>
+
+                  
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+    
+    <script>
+      $(function(){
+          $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+    
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    
+                      <li>
+                        <a href="mailto:Ezekiel.j.p.h@gmail.com" data-toggle="tooltip">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    <li>
+                      <a href="https://twitter.com/ezekiel_haggart" data-toggle="tooltip">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://github.com/Ezekiel-H" data-toggle="tooltip">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  <p class="copyright text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/clean-blog.js"></script>
+
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-105595834-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+
+</html>
+
