@@ -39,11 +39,9 @@ All the graphs are interactive and you can take off any of the parties/year by u
 
 Looking at the party vote in Christchurch grouping the dataset by year and party this graph shows Chch is a land of the major parties with National Labour Greens and NZ first taking up the lions share of the vote. the 2008 to 2011 showed the most dramatic shift from Labour to National while Greens and NZF continue to make ground into 2014. The minor parties show Act has become all but irrelavant since 2008's high.
 
-<div class="embed-responsive embed-responsive-4by3">
 
   <iframe class="chart" src="https://ezekiel.nz/shiny/Widgets/ChchElection/chchelection_chart3.html" width="750" height="550" style="border: none;"></iframe>
 
-</div>
 
 Grouped by year and electorate this Graph shows the winning candidate of each electorate along with the margin of victory by votes. Notice Selywn and Christchurch East are pretty safe seats while the Wimak Cenral and Port Hills are all up for Grabs. In 2011 Christcuhrch central was decided by only 47 votes.
 
@@ -51,7 +49,7 @@ Grouped by year and electorate this Graph shows the winning candidate of each el
 
 
 ##Christchurch Region Shiny App
-Two shapefiles (stats.nz's)[stats.govt.nz] NZ electorate maps and (LINZ's)[LINZ.govt.nz] urban area maps were combined using ARC before being read into R. The Shiny app displays an interactive visualisation for Electorate and Party votes over the previous three elections. 
+Two shapefiles [stats.nz's](stats.govt.nz) NZ electorate maps and [LINZ's](LINZ.govt.nz) urban area maps were combined using ARC before being read into R. The Shiny app displays an interactive visualisation for Electorate and Party votes over the previous three elections. 
 
 
 
@@ -70,10 +68,8 @@ All these assessments seem pretty straight forward by what about the 5% party vo
 
 Maybe. I ran out of time to get this put togeather before the election so below you can see Christchurch vs NZ age distribution for both enrolled and represented voters. It shows Christchurch has a higher electorate turnout and a younger distribution than the general NZ population. This graph also demonstrates how impactful the unenrolled 18-24 group has on distorting the age demographic in NZ.
 
-<div class="embed-responsive embed-responsive-4by3">
 
 
 <iframe class="chart" src="https://ezekiel.nz/shiny/Widgets/ChchElection/chchelection_chart2.html" width="750" height="550" style="border: none;"></iframe>
 
 
-</div>

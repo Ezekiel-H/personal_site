@@ -51,7 +51,7 @@ Grouped by year and electorate this Graph shows the winning candidate of each el
 
 
 ##Christchurch Region Shiny App
-Two shapefiles (stats.nz's)[stats.govt.nz] NZ electorate maps and (LINZ's)[LINZ.govt.nz] urban area maps were combined using ARC before being read into R. The Shiny app displays an interactive visualisation for Electorate and Party votes over the previous three elections. 
+Two shapefiles [stats.nz's](stats.govt.nz) NZ electorate maps and [LINZ's](LINZ.govt.nz) urban area maps were combined using ARC before being read into R. The Shiny app displays an interactive visualisation for Electorate and Party votes over the previous three elections. 
 
 
 
