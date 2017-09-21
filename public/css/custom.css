@@ -158,3 +158,8 @@ header.masthead .page-heading, header.masthead .site-heading h1 {
   margin-right: auto!important;
   margin-left: auto!important;
 }
+
+.chart {
+  width: 100%; 
+  min-height: 450px !important;
+}
