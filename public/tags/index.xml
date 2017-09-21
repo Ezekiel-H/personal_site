@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ezekiel Haggart</title>
-    <link>/tags/</link>
+    <link>https://ezekiel.nz/tags/</link>
     <description>Recent content in Tags on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ezekiel.nz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analysis</title>
-      <link>/tags/analysis/</link>
+      <link>https://ezekiel.nz/tags/analysis/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/analysis/</guid>
+      <guid>https://ezekiel.nz/tags/analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highcharter</title>
-      <link>/tags/highcharter/</link>
+      <link>https://ezekiel.nz/tags/highcharter/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/highcharter/</guid>
+      <guid>https://ezekiel.nz/tags/highcharter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nz Election 2017</title>
-      <link>/tags/nz-election-2017/</link>
+      <link>https://ezekiel.nz/tags/nz-election-2017/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/nz-election-2017/</guid>
+      <guid>https://ezekiel.nz/tags/nz-election-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plot</title>
-      <link>/tags/plot/</link>
+      <link>https://ezekiel.nz/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>https://ezekiel.nz/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>https://ezekiel.nz/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>https://ezekiel.nz/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression</title>
-      <link>/tags/regression/</link>
+      <link>https://ezekiel.nz/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>https://ezekiel.nz/tags/regression/</guid>
       <description></description>
     </item>
     
