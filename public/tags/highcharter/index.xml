@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Highcharter on Ezekiel Haggart</title>
-    <link>https://ezekiel.nz/tags/highcharter/</link>
+    <link>/tags/highcharter/</link>
     <description>Recent content in Highcharter on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ezekiel.nz/tags/highcharter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/highcharter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Christchurch Election</title>
-      <link>https://ezekiel.nz/post/christchurch-election/</link>
+      <link>/post/christchurch-election/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ezekiel.nz/post/christchurch-election/</guid>
+      <guid>/post/christchurch-election/</guid>
       <description>Christchurch is New Zealands 2nd largest city and in this 2017 election cycle it is a key prise any for the political parties. This analysis will look at Christchurchs past three election cycles in 2008 2011 and 2014 to better put in context the upcoming election result. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
     </item>
     

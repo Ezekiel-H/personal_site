@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analysis on Ezekiel Haggart</title>
-    <link>https://ezekiel.nz/tags/analysis/</link>
+    <link>/tags/analysis/</link>
     <description>Recent content in Analysis on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ezekiel.nz/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bars per capita in NZ</title>
+      <link>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
+      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
+      <description>In New Zealand to distribute alcohol you need to apply to your regional LLA liqour licence authority for a permit. The NZ justice department produces a list of all liqour licences distributed in a single year.
+I made this shiny app with the data set from NZ Justice Department and a shapefile/population statistics from stats NZ to show how many people each bar, club and liqour retailer have if we evenly split them up.</description>
+    </item>
+    
+    <item>
       <title>Christchurch Election</title>
-      <link>https://ezekiel.nz/post/christchurch-election/</link>
+      <link>/post/christchurch-election/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ezekiel.nz/post/christchurch-election/</guid>
+      <guid>/post/christchurch-election/</guid>
       <description>Christchurch is New Zealands 2nd largest city and in this 2017 election cycle it is a key prise any for the political parties. This analysis will look at Christchurchs past three election cycles in 2008 2011 and 2014 to better put in context the upcoming election result. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
     </item>
     
