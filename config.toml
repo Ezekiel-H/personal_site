@@ -39,6 +39,6 @@ googleAnalytics = "UA-105595834-1"
   weight = -180
 [[menu.main]]
   name = "Vitae"
-  url = "/files/EzekielHaggartCV.pdf/"
+  url = "/files/EzekielHaggartCV.pdf"
   weight = -180  
   
