@@ -11,7 +11,7 @@ googleAnalytics = "UA-105595834-1"
   name = "Ezekiel Haggart"
 
 [params]
-  DateForm = "Mon, Jan 2, 2017"
+  DateForm = "Mon Jan 2, 2006"
   Description = "Analytics and Analysis"
   Author = "Ezekiel Haggart"
   email = "Ezekiel.j.p.h@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
