@@ -18,11 +18,12 @@ I am interested in development using R and Python, I love history and politics a
 
 
 
+
 ```{r, include=FALSE}
 
 leaflet() %>%
   addTiles() %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  #addProviderTiles(providers$CartoDB.Positron) %>%
   addMarkers(lat=51.507351, lng=-0.127758, popup="Zekes in London") 
 
 

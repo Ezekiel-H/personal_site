@@ -30,7 +30,7 @@ googleAnalytics = "UA-105595834-1"
   url = "https://github.com/Ezekiel-H"
 
 [[menu.main]]
-  name = "Projects"
+  name = "Shiny Apps"
   url = "https://ezekiel.nz/shiny/"
   weight = -180
 [[menu.main]]

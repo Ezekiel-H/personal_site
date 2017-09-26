@@ -11,10 +11,11 @@ library(leaflet)
 
 
 
-My name is Ezekiel but I also go by Zeke. I am 26 years of age, an analyst and on the way from Christchurch New Zealand to London. I created this website using Hugo to show a bit about what I can and like to do. 
+My name is Ezekiel but I also go by Zeke. I am 26 years of age, an analyst and on the way from Christchurch, New Zealand to London. I created this website using Hugo to show a bit about what I can and like to do. 
 
 
 I am interested in development using R and Python, I love history and politics and can't say no to a good craft beer. I am open to work on open source or charitable projects especially focused on sustainability and enviromental causes. Here is a quick snap shot about me, as you can see my CV is also avaliable.  
+
 
 
 
@@ -22,7 +23,7 @@ I am interested in development using R and Python, I love history and politics a
 
 leaflet() %>%
   addTiles() %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  #addProviderTiles(providers$CartoDB.Positron) %>%
   addMarkers(lat=51.507351, lng=-0.127758, popup="Zekes in London") 
 
 
