@@ -28,7 +28,10 @@ googleAnalytics = "UA-105595834-1"
 [[params.social]]
   title = "github"
   url = "https://github.com/Ezekiel-H"
-
+[[params.social]]
+  title = "linkedin"
+  url = "www.linkedin.com/in/EzekielHaggart"
+  
 [[menu.main]]
   name = "Shiny Apps"
   url = "https://ezekiel.nz/shiny/"
