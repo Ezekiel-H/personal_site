@@ -69,7 +69,7 @@ Taking a practical approach assuming fees are no more than 1% per transaction ho
 
 
 $$
-$39.88 = \frac{$100}{((1.8925)  (.99))} ((1.3083)(.99))(1.982_{Current Azimo Rate}) - $100
+$39.88 = \frac{$100}{((1.8925)  (.99))} ((1.3083)(.99))(1.982) - $100
 $$
 
 
