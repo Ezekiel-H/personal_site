@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>/post/using-btc-exchange-to-find-currency-arbitrage/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
   </url>
@@ -69,7 +74,13 @@
   
   <url>
     <loc>/tags/analysis/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/arbitrage/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -80,7 +91,25 @@
   </url>
   
   <url>
+    <loc>/tags/bitcion/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/btc/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/exchange/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,13 +155,13 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -144,7 +173,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

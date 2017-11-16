@@ -111,6 +111,7 @@
 
 .img-circle {
     border-radius: 50%;
+    height: 230px;
 }
 
 .site-heading {
@@ -155,6 +156,7 @@ header.masthead .page-heading, header.masthead .site-heading h1 {
 }
 
 
+
 .mx-auto {
   margin-right: auto!important;
   margin-left: auto!important;
@@ -164,3 +166,4 @@ header.masthead .page-heading, header.masthead .site-heading h1 {
   width: 100%; 
   min-height: 450px !important;
 }
+

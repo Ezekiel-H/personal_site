@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Analysis</title>
       <link>/tags/analysis/</link>
-      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbitrage</title>
+      <link>/tags/arbitrage/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arbitrage/</guid>
       <description></description>
     </item>
     
@@ -26,6 +35,33 @@
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/bars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcion</title>
+      <link>/tags/bitcion/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bitcion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Btc</title>
+      <link>/tags/btc/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/btc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exchange</title>
+      <link>/tags/exchange/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/exchange/</guid>
       <description></description>
     </item>
     
