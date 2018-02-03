@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About_files on Ezekiel Haggart</title>
+    <link>/about_files/</link>
+    <description>Recent content in About_files on Ezekiel Haggart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/about_files/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/about_files/leaflet-providers/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about_files/leaflet-providers/contributing/</guid>
+      <description> So you want to add a layer? Yay! go add it to the leaflet-providers.js as long as it follows the following rules:
+ Don&amp;rsquo;t violate a providers TOS (if it exists, include a link to it) Don&amp;rsquo;t pre-populate api keys with working keys. It should be a basic tile source, no exteral libraries etc. The owner hasn&amp;rsquo;t asked us to remove it (hasn&amp;rsquo;t happened yet)  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about_files/leaflet-providers/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about_files/leaflet-providers/readme/</guid>
+      <description>Leaflet-providers An extension to Leaflet that contains configurations for various free1 tile providers.
+Usage Leaflet-providers providers are refered to with a provider[.&amp;lt;variant&amp;gt;]-string. Let&amp;rsquo;s say you want to add the nice Watercolor style from Stamen to your map, you pass Stamen.Watercolor to the L.tileLayer.provider-constructor, which will return a L.TileLayer instance for Stamens Watercolor tile layer.
+// add Stamen Watercolor to map. L.tileLayer.provider(&#39;Stamen.Watercolor&#39;).addTo(map);  Protocol relativity (https://-urls) Leaflet-providers tries to use https:// if the page uses https:// and the provider supports it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about_files/leaflet-providers/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about_files/leaflet-providers/license/</guid>
+      <description>Copyright &amp;copy; 2013 Leaflet Providers contributors All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

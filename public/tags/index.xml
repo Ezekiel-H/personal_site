@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Eccomerce</title>
+      <link>/tags/eccomerce/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eccomerce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exchange</title>
       <link>/tags/exchange/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
@@ -89,6 +98,24 @@
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/nz-election-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

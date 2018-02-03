@@ -11,12 +11,9 @@ library(leaflet)
 
 
 
-My name is Ezekiel and I am an analyst from New Zealand based in London. I created this website using Hugo to show a bit about what I can and like to do. 
+My name is Ezekiel and I am an analyst from New Zealand based in Amsterdam. I am interested in data analysis, develelopment in R and Python, big data and Machine learning, I love history and politics and the enviroment. 
 
-
-I am interested in data analysis, develelopment in R and Python, big data and Machine learning, I love history and politics and can't say no to a good craft beer. 
-
-I am avaliable to do pro bono work on open source or charitable projects especially focused on sustainability and enviromental causes. Here is a quick snap shot about me, as you can see my CV is also avaliable.  
+I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes.
 
 
 
