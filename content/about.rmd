@@ -17,7 +17,6 @@ I am excited to learn how I can help with charitable or open source projects esp
 
 
 
-
 ```{r, include=FALSE}
 
 leaflet() %>%
