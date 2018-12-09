@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Ezekiel Haggart\"\ntype: \"About\"\n---\n\n\n```{r, include=FALSE}\nlibrary(leaflet)\n\n```\n\n\n\nMy name is Ezekiel and I am an analyst from New Zealand based in Amsterdam. I am interested in data analysis, develelopment in R and Python, big data and Machine learning, I love history and politics and the enviroment. \n\nI am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes.\n\n\n\n```{r, include=FALSE}\n\nleaflet() %>%\n  addTiles() %>%\n  #addProviderTiles(providers$CartoDB.Positron) %>%\n  addMarkers(lat=51.507351, lng=-0.127758, popup=\"Zekes in London\") \n\n\n```\n",
+    "created" : 1510851634610.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "825545477",
+    "id" : "F2ECA314",
+    "lastKnownWriteTime" : 1531076931,
+    "last_content_update" : 1531076931240,
+    "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz/content/about.rmd",
+    "project_path" : "content/about.rmd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

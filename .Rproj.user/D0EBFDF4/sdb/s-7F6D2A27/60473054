@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "{{ partial \"header.html\" . }}\n\n    <!-- Page Header -->\n    <header class=\"masthead\" style=\"background-image\">\n      <div class=\"container\">\n        <div class=\"row\">           \n          <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n            <div class=\"page-heading\">\n              <img src=\"{{ .Site.BaseURL }}img/EzekielHaggartFace.JPG\" class=\"img-circle\" alt=\"Ezekiel Haggart\">\n                <h1>{{ .Title }}</h1>\n                <hr class=\"small\">\n                <span class=\"subheading\">{{ .Description }}</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </header>\n  \n\n  <!-- Main Content -->\n  \n  <!-- Main Content -->\n    \n    \n  <article>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\"> \n         <p class=\"about-text\">\n          {{ .Content }}  \n         </p>\n        </div>\n      </div>\n    </div>\n  </article>\n    \n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n         <p class=\"about-text\">\n          <span class=\"fa fa-briefcase about-icon fa-fw\" aria-hidden=\"true\"></span><strong>Fraud Analyst</strong> at <strong>Booking.com</strong> Previously a  <strong>Fraud Analyst</strong> at <strong>EQC</strong> and <strong>Business Analyst</strong> at FinTech startup <strong>Crank Software Solutions</strong> \n          <p class=\"about-text\">\n            <span class=\"fa fa-graduation-cap fa-fw\" aria-hidden=\"true\"></span>\n          <strong>Bachelor in Commerce, Economics </strong> (Victoria University Wellington)\n          </p>\n          <p class=\"about-text\">\n            <span class=\"fa fa-code fa-fw\" aria-hidden=\"true\"></span><strong>  SQL R Python Excel/VBA AI Machine Learning </strong>\n          </p>\n  \n        </div>\n      </div>\n    </div>\n  \n\n  \n\n{{ partial \"footer.html\" . }}",
+    "created" : 1510851653283.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "77401092",
+    "id" : "60473054",
+    "lastKnownWriteTime" : 1517479871,
+    "last_content_update" : 1517479871538,
+    "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz/layouts/about/single.html",
+    "project_path" : "layouts/about/single.html",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

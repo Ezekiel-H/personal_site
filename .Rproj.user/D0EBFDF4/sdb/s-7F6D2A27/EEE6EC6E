@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "{{ partial \"header.html\" .}}\n\n    <!-- Page Header -->\n    <header class=\"masthead\" style=\"background-image\">\n     <div class=\"container\">\n       <div class=\"row\">\n         <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n           <div class=\"site-heading\">\n             <h1>{{ .Site.Title }}</h1>\n             <hr class=\"small\">\n             {{ with .Site.Params.Description }}<span class=\"subheading\">{{ . }}</span>{{ end }}\n           </div>\n          <span class=\"subtitle\">This is my personal website built using Hugo to showcase my apps I have created. See below for some recent work and analysis. For more information check out my about page or get in contact using links in the footer.</span> \n         </div>\n         <br>\n       </div>\n       <hr> \n     </div>\n    </header>\n\n    <!-- Main Content -->\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n          {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}\n          {{ range first $posts (where .Data.Pages \"Type\" \"post\") }}\n              {{ .Render \"summary\"}}\n          {{ end }}\n          <!-- Pager -->\n          <!--ul class=\"pager\">\n            <li class=\"next\">\n              <a href=\"{{ .Site.BaseURL }}/post/\">Older Posts &rarr;</a>\n            </li>\n          </ul-->\n          \n        </div>\n      </div>\n    </div>\n\n{{ partial \"footer.html\" .}}\n",
+    "created" : 1510872643551.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3296209877",
+    "id" : "EEE6EC6E",
+    "lastKnownWriteTime" : 1506920103,
+    "last_content_update" : 1506920103,
+    "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz/layouts/index.html",
+    "project_path" : "layouts/index.html",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}
