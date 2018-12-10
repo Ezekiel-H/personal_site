@@ -1,0 +1,28 @@
+---
+title: "Ezekiel Haggart"
+type: "About"
+---
+
+
+```{r, include=FALSE}
+library(leaflet)
+
+```
+
+
+
+My name is Ezekiel and I am an analyst from New Zealand based in Amsterdam. I am interested in data analysis, develelopment in R and Python, big data and Machine learning, I love history and politics and the enviroment. 
+
+I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes.
+
+
+
+```{r, include=FALSE}
+
+leaflet() %>%
+  addTiles() %>%
+  #addProviderTiles(providers$CartoDB.Positron) %>%
+  addMarkers(lat=51.507351, lng=-0.127758, popup="Zekes in London") 
+
+
+```
