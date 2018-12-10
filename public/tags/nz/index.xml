@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nz on Ezekiel Haggart</title>
-    <link>https://ezekiel-h.github.io/ezekiel.nz/public/tags/nz/</link>
+    <link>/ezekiel.nz/public/tags/nz/</link>
     <description>Recent content in Nz on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ezekiel-h.github.io/ezekiel.nz/public/tags/nz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ezekiel.nz/public/tags/nz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bars per capita in NZ</title>
-      <link>https://ezekiel-h.github.io/ezekiel.nz/public/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
+      <link>/ezekiel.nz/public/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ezekiel-h.github.io/ezekiel.nz/public/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
+      <guid>/ezekiel.nz/public/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
       <description>In New Zealand to distribute alcohol you need to apply to your regional Liqour Licence Authority (LLA) for a permit. The NZ Justice Department produces a list of all liqour licences distributed in a single year.
 I made this shiny app using a data set from NZ Justice Department and a shapefile/population statistics from Statistics to show for each LLA how many persons per bar, club or liqour retailer. This can be understood as bars per capita for NZ grouped by LLA’s.</description>
     </item>
