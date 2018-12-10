@@ -1,4 +1,4 @@
-baseurl = "https://ezekiel-h.github.io/personal_site/"
+baseurl = "https://ezekiel-h.github.io/"
 title = "Ezekiel Haggart"
 theme = "startbootstrap-clean-blog"
 publishDir = "ezekiel-h.github.io/personal_site"
