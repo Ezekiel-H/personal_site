@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Using BTC exchange to find currency arbitrage -- Ezekiel Haggart</title>
+
+    
+
+    
+    <link href="//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="//css/clean-blog.min.css" rel="stylesheet">
+
+    
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+
+    
+    <link href="//css/custom.css" rel="stylesheet">
+
+
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+
+
+</head>
+
+<body>
+
+
+
+
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-light fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Ezekiel Haggart</a>
+            </div>
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/files/ezekiel_haggart_cv.pdf">CV</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://ezekiel.nz/shiny/">Shiny Apps</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+
+
+    
+    
+    
+    <header class="masthead page-masthead">
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Using BTC exchange to find currency arbitrage</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">
+                 
+  A 3 minute read,
+
+Posted by <a href="#">Ezekiel Haggart</a> on Thu Nov 16, 2017
+<br />
+In <a href="/categories/r">R</a>
+
+<br />
+Tags <a href="/tags/analysis">analysis</a>, <a href="/tags/btc">btc</a>, <a href="/tags/exchange">exchange</a>, <a href="/tags/bitcoin">bitcoin</a>, <a href="/tags/arbitrage">arbitrage</a>
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <p>Bitcoin cryptocurrency is treated as both a currency and more and more an asset that is exchanged across multiple FX accross the globe. This presents an interesting question does the market balance the FX accross currencies in real time? If not there would be room for arbitrage and a real ability to make money transfering between currencies using BTC markets.</p>
+<p>This quick analysis will look to see if it is theoreticly possible to make money changing NZD for BTC then to GBP and back to NZD via a BTC exchange. Firstly lets look at the price of bitcoin relative to GBP and NZD over its recent history.</p>
+<iframe class="chart" src="https://ezekiel.nz/shiny/Widgets/BTC/BTCPrices.html" width="750" height="550" style="border: none;">
+</iframe>
+<p>Well two things are very quickly apparent</p>
+<ul>
+<li><p>There is a significant number of gaps in the data provided to <a href="https://www.quandl.com">quandl</a> by BitcoinLocal that may influence the significance of the result.</p></li>
+<li><p>The price movements are not one for one for the two currencies creating in theory arbitrage opportunities.</p></li>
+</ul>
+<p>This means in theory we could buy use NZD to buy BTC transfer into GBP wallet then use a service like <a href="https://support.coinbase.com/customer/en/portal/articles/1963534-payment-methods-for-uk-customers">coinbase</a> to “cash out” and use a regular currency transfer service like Azamo to then transfer back into NZD.</p>
+<hr />
+<iframe class="chart" src="https://ezekiel.nz/shiny/Widgets/BTC/BTCExchange.html" width="750" height="550" style="border: none;">
+</iframe>
+<p>Here we can see the historic NZD/GBP exchange sourced from the BOE dataset on quandl against the daily BTCExchange understood as the price in BTC GBP vs BTC NZD.</p>
+<hr />
+<p>A simple model of when to buy BTC in NZD and when to buy in GBP based on the .05% transfer cost of bitcoin.</p>
+<iframe class="chart" src="https://ezekiel.nz/shiny/Widgets/BTC/BTCArbitrage.html" width="750" height="550" style="border: none;">
+</iframe>
+<div id="the-details" class="section level2">
+<h2>The Details</h2>
+<p>So about now you realize that if it was this easy to do it the arbitrage opportunites would shut the door and fees decimate your returns. Well that is true but not entirely assuming the formula below.</p>
+<p><span class="math display">\[
+\Pi = \frac{X}{(XE - F_t)} (XE_{BTC}-F_{BTC}) (XE_{MT}) - X
+\]</span></p>
+<p>Where profit is the amount invested X divided by the exchange less fees where the fees <span class="math inline">\(F_t\)</span> and <span class="math inline">\(F_{ETC}\)</span> are the unknown. The above chart is a visual representation of when you have the opportunity for arbitrage by trading NZD.</p>
+<p>Taking a practical approach assuming fees are no more than 1% per transaction how much could have been made on the 8th of November per transaction completed transaction. Using the current Azimo transfer as <span class="math inline">\(XE_{MT}\)</span></p>
+<p><span class="math display">\[
+$39.88 = \frac{$100}{((1.8925)  (.99))} ((1.3083)(.99))(1.982) - $100
+\]</span></p>
+<p>This shows with a $100 investment each completed move from NZD to NZD via currency exchange in BTC would have returned a 39.88% return.</p>
+</div>
+<div id="so-what-now" class="section level2">
+<h2>So what now?</h2>
+<p>How much are fees? How many trades can I make? How much can I make? All goood questions I don’t know the answer to. This requires a better dataset than I currently have access to. The point remains that in theory day trading currencies using BTC could be very lucrative.</p>
+</div>
+
+                  
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+          
+
+
+    
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    
+                      <li>
+                        <a href="mailto:Ezekiel.j.p.h@gmail.com" data-toggle="tooltip" title="hello@ezekiel.nz">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    <li>
+                      <a href="https://twitter.com/ezekiel_haggart" data-toggle="tooltip">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://github.com/Ezekiel-H" data-toggle="tooltip">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.linkedin.com/in/ezekielhaggart/" data-toggle="tooltip">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  <p class="copyright text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/clean-blog.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+      });
+    </script>
+      
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-105595834-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+
+</html>
+
