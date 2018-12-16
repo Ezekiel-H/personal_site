@@ -72,6 +72,6 @@ Maybe. I ran out of time to get this put together before the election so below y
 
 
 
-<iframe class="chart" src="https://ezekiel.nz/shiny/Widgets/ChchElection/chchelection_chart2/" width="750" height="550" style="border: none;"></iframe>
+<iframe class="chart" src="https://ezekiel.nz/Widgets/ChchElection/chchelection_chart2/" width="750" height="550" style="border: none;"></iframe>
 
 
