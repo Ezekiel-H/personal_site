@@ -1,7 +1,7 @@
-baseurl = "https://ezekiel-h.github.io/"
+baseurl = "https://ezekiel-h.github.io/personal_site/"
 title = "Ezekiel Haggart"
 theme = "startbootstrap-clean-blog"
-# publishDir = "docs"
+publishDir = "docs"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "" 
@@ -18,6 +18,9 @@ googleAnalytics = "UA-105595834-1"
   email = "Ezekiel.j.p.h@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] 
+
 
 [permalinks]
 	page = "/:title/"

@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ezekiel Haggart</title>
-    <link>/personal_site/docs/tags/</link>
+    <link>/personal_site/tags/</link>
     <description>Recent content in Tags on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/personal_site/docs/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/personal_site/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analysis</title>
-      <link>/personal_site/docs/tags/analysis/</link>
+      <link>/personal_site/tags/analysis/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/analysis/</guid>
+      <guid>/personal_site/tags/analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arbitrage</title>
-      <link>/personal_site/docs/tags/arbitrage/</link>
+      <link>/personal_site/tags/arbitrage/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/arbitrage/</guid>
+      <guid>/personal_site/tags/arbitrage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bars</title>
-      <link>/personal_site/docs/tags/bars/</link>
+      <link>/personal_site/tags/bars/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/bars/</guid>
+      <guid>/personal_site/tags/bars/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bitcoin</title>
-      <link>/personal_site/docs/tags/bitcoin/</link>
+      <link>/personal_site/tags/bitcoin/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/bitcoin/</guid>
+      <guid>/personal_site/tags/bitcoin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Btc</title>
-      <link>/personal_site/docs/tags/btc/</link>
+      <link>/personal_site/tags/btc/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/btc/</guid>
+      <guid>/personal_site/tags/btc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eccomerce</title>
-      <link>/personal_site/docs/tags/eccomerce/</link>
+      <link>/personal_site/tags/eccomerce/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/eccomerce/</guid>
+      <guid>/personal_site/tags/eccomerce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exchange</title>
-      <link>/personal_site/docs/tags/exchange/</link>
+      <link>/personal_site/tags/exchange/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/exchange/</guid>
+      <guid>/personal_site/tags/exchange/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highcharter</title>
-      <link>/personal_site/docs/tags/highcharter/</link>
+      <link>/personal_site/tags/highcharter/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/highcharter/</guid>
+      <guid>/personal_site/tags/highcharter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nz</title>
-      <link>/personal_site/docs/tags/nz/</link>
+      <link>/personal_site/tags/nz/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/nz/</guid>
+      <guid>/personal_site/tags/nz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nz Election 2017</title>
-      <link>/personal_site/docs/tags/nz-election-2017/</link>
+      <link>/personal_site/tags/nz-election-2017/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/nz-election-2017/</guid>
+      <guid>/personal_site/tags/nz-election-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/personal_site/docs/tags/python/</link>
+      <link>/personal_site/tags/python/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/python/</guid>
+      <guid>/personal_site/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/personal_site/docs/tags/r/</link>
+      <link>/personal_site/tags/r/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/r/</guid>
+      <guid>/personal_site/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny</title>
-      <link>/personal_site/docs/tags/shiny/</link>
+      <link>/personal_site/tags/shiny/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/docs/tags/shiny/</guid>
+      <guid>/personal_site/tags/shiny/</guid>
       <description></description>
     </item>
     
