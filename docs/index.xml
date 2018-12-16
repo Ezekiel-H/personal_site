@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ezekiel Haggart</title>
-    <link>/personal_site/</link>
+    <link>https://ezekiel-h.github.io/personal_site/</link>
     <description>Recent content on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/personal_site/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ezekiel-h.github.io/personal_site/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Github pages to host personal site</title>
-      <link>/personal_site/post/using-github-pages-to-host-personal-site/</link>
+      <link>https://ezekiel-h.github.io/personal_site/post/using-github-pages-to-host-personal-site/</link>
       <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/using-github-pages-to-host-personal-site/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/post/using-github-pages-to-host-personal-site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2018 Current Projects</title>
-      <link>/personal_site/post/2018-current-projects/</link>
+      <link>https://ezekiel-h.github.io/personal_site/post/2018-current-projects/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/2018-current-projects/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/post/2018-current-projects/</guid>
       <description>Looking ahead at the year I wanted to write down some projects I am working on to better hold myself accountable. This list will be updated periodically as the projects develop.
  NZ Wijn an ecommerce store I am currently building using Python django. This project will be up in running in the next month or two.
  Build a player skills profile app to develop my machine learning skills accross both R and Python.</description>
@@ -33,58 +33,58 @@
     
     <item>
       <title>Using BTC exchange to find currency arbitrage</title>
-      <link>/personal_site/post/using-btc-exchange-to-find-currency-arbitrage/</link>
+      <link>https://ezekiel-h.github.io/personal_site/post/using-btc-exchange-to-find-currency-arbitrage/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/using-btc-exchange-to-find-currency-arbitrage/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/post/using-btc-exchange-to-find-currency-arbitrage/</guid>
       <description>Bitcoin cryptocurrency is treated as both a currency and more and more an asset that is exchanged across multiple FX accross the globe. This presents an interesting question does the market balance the FX accross currencies in real time? If not there would be room for arbitrage and a real ability to make money transfering between currencies using BTC markets.
 This quick analysis will look to see if it is theoreticly possible to make money changing NZD for BTC then to GBP and back to NZD via a BTC exchange.</description>
     </item>
     
     <item>
       <title>Bars per capita in NZ</title>
-      <link>/personal_site/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
+      <link>https://ezekiel-h.github.io/personal_site/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
       <description>In New Zealand to distribute alcohol you need to apply to your regional Liqour Licence Authority (LLA) for a permit. The NZ Justice Department produces a list of all liqour licences distributed in a single year.
 I made this shiny app using a data set from NZ Justice Department and a shapefile/population statistics from Statistics to show for each LLA how many persons per bar, club or liqour retailer. This can be understood as bars per capita for NZ grouped by LLA’s.</description>
     </item>
     
     <item>
       <title>Christchurch Election</title>
-      <link>/personal_site/post/christchurch-election/</link>
+      <link>https://ezekiel-h.github.io/personal_site/post/christchurch-election/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/christchurch-election/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/post/christchurch-election/</guid>
       <description>THIS WILL BE UPDATED WITH 2017 RESULTS ONCE SPECIAL VOTES HAVE BEEN COUNTED EXPECTED 8TH OCTChristchurch is New Zealand’s second largest city and in the 2017 election cycle it was a key prize for any of the political parties. I produced a series of interactive graphics to examine the outcome of Christchurch’s current and past three election cycles. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/personal_site/post/2018-02-01-2018-current-projects/</link>
+      <link>https://ezekiel-h.github.io/personal_site/post/2018-02-01-2018-current-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/2018-02-01-2018-current-projects/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/post/2018-02-01-2018-current-projects/</guid>
       <description>2018 Current Projectscode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() {hljs.initHighlighting();}, 0);}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.table th:not([align]) {text-align: left;}.</description>
     </item>
     
     <item>
       <title>Ezekiel Haggart</title>
-      <link>/personal_site/about/</link>
+      <link>https://ezekiel-h.github.io/personal_site/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/about/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/about/</guid>
       <description>My name is Ezekiel and I am an analyst from New Zealand based in Amsterdam. I am interested in data analysis, development in R and Python, big data and Machine learning, I love history and politics and the enviroment.
 I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes.</description>
     </item>
     
     <item>
       <title>Ezekiel Haggart</title>
-      <link>/personal_site/projects/</link>
+      <link>https://ezekiel-h.github.io/personal_site/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/projects/</guid>
+      <guid>https://ezekiel-h.github.io/personal_site/projects/</guid>
       <description>My name is Ezekiel and I am an analyst from New Zealand based in Amsterdam. I am interested in data analysis, development in R and Python, big data and Machine learning, I love history and politics and the enviroment.
 I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes.</description>
     </item>
