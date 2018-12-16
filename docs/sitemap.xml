@@ -3,157 +3,157 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/personal_site/post/using-github-pages-to-host-personal-site/</loc>
+    <loc>/post/using-github-pages-to-host-personal-site/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/personal_site/post/2018-current-projects/</loc>
+    <loc>/post/2018-current-projects/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/personal_site/post/using-btc-exchange-to-find-currency-arbitrage/</loc>
+    <loc>/post/using-btc-exchange-to-find-currency-arbitrage/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/personal_site/post/looking-at-the-density-of-bars-accross-nz-lla-s/</loc>
+    <loc>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/personal_site/post/christchurch-election/</loc>
+    <loc>/post/christchurch-election/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/personal_site/post/2018-02-01-2018-current-projects/</loc>
+    <loc>/post/2018-02-01-2018-current-projects/</loc>
   </url>
   
   <url>
-    <loc>/personal_site/tags/analysis/</loc>
+    <loc>/tags/analysis/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/arbitrage/</loc>
+    <loc>/tags/arbitrage/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/bars/</loc>
+    <loc>/tags/bars/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/bitcoin/</loc>
+    <loc>/tags/bitcoin/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/btc/</loc>
+    <loc>/tags/btc/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/eccomerce/</loc>
+    <loc>/tags/eccomerce/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/exchange/</loc>
+    <loc>/tags/exchange/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/personal_site/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>/personal_site/tags/highcharter/</loc>
-    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/categories/leaflet/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/tags/nz/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/tags/nz-election-2017/</loc>
-    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/post/</loc>
+    <loc>/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/categories/projects/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/highcharter/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/python/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/categories/r/</loc>
-    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/tags/r/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/personal_site/tags/shiny/</loc>
+    <loc>/categories/leaflet/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/personal_site/tags/</loc>
+    <loc>/tags/nz/</loc>
+    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nz-election-2017/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/projects/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

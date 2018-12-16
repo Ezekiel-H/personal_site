@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ezekiel Haggart</title>
-    <link>/personal_site/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/personal_site/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Leaflet</title>
-      <link>/personal_site/categories/leaflet/</link>
+      <link>/categories/leaflet/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/categories/leaflet/</guid>
+      <guid>/categories/leaflet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/personal_site/categories/projects/</link>
+      <link>/categories/projects/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/categories/projects/</guid>
+      <guid>/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/personal_site/categories/r/</link>
+      <link>/categories/r/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/categories/r/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
