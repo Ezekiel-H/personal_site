@@ -19,7 +19,7 @@ Bitcoin cryptocurrency is treated as both a currency and more and more an asset 
 
 This quick analysis will look to see if it is theoreticly possible to make money changing NZD for BTC then to GBP and back to NZD via a BTC exchange. Firstly lets look at the price of bitcoin relative to GBP and NZD over its recent history.
 
-<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCPrices/" width="750"   height="550" style="border: none;"></iframe>
+<iframe class="chart" src="https://ezekiel.nz/Widgets/btc/btcprices/" width="750"   height="550" style="border: none;"></iframe>
 
 
 Well two things are very quickly apparent
