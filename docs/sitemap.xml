@@ -3,207 +3,207 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ezekiel.nz/post/using-github-pages-to-host-personal-site/</loc>
+    <loc>/post/using-github-pages-to-host-personal-site/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/post/2018-current-projects/</loc>
+    <loc>/post/2018-current-projects/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/post/using-btc-exchange-to-find-currency-arbitrage/</loc>
+    <loc>/post/using-btc-exchange-to-find-currency-arbitrage/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/post/looking-at-the-density-of-bars-accross-nz-lla-s/</loc>
+    <loc>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/post/christchurch-election/</loc>
+    <loc>/post/christchurch-election/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/btc/btcarbitrage/</loc>
+    <loc>/widgets/btc/btcarbitrage/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/btc/btcexchange/</loc>
+    <loc>/widgets/btc/btcexchange/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/btc/btcprices/</loc>
+    <loc>/widgets/btc/btcprices/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/chchelection/chchelection_chart1/</loc>
+    <loc>/widgets/chchelection/chchelection_chart1/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/chchelection/chchelection_chart2/</loc>
+    <loc>/widgets/chchelection/chchelection_chart2/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/chchelection/chchelection_chart3/</loc>
+    <loc>/widgets/chchelection/chchelection_chart3/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/presentation/newsuk_snakey/</loc>
+    <loc>/widgets/presentation/newsuk_snakey/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/presentation/newsuk_snakey2/</loc>
+    <loc>/widgets/presentation/newsuk_snakey2/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/post/2018-02-01-2018-current-projects/</loc>
+    <loc>/post/2018-02-01-2018-current-projects/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/analysis/</loc>
+    <loc>/tags/analysis/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/arbitrage/</loc>
+    <loc>/tags/arbitrage/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/bars/</loc>
+    <loc>/tags/bars/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/bitcoin/</loc>
+    <loc>/tags/bitcoin/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/btc/</loc>
+    <loc>/tags/btc/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/eccomerce/</loc>
+    <loc>/tags/eccomerce/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/exchange/</loc>
+    <loc>/tags/exchange/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/</loc>
+    <loc>/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/projects/</loc>
+    <loc>/projects/</loc>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/categories/git/</loc>
+    <loc>/categories/git/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/highcharter/</loc>
-    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezekiel.nz/tags/hosting/</loc>
-    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezekiel.nz/categories/leaflet/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezekiel.nz/tags/nz/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ezekiel.nz/tags/nz-election-2017/</loc>
+    <loc>/tags/highcharter/</loc>
     <lastmod>2017-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/post/</loc>
+    <loc>/tags/hosting/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/categories/projects/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <loc>/categories/leaflet/</loc>
+    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/python/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <loc>/tags/nz/</loc>
+    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/categories/r/</loc>
+    <loc>/tags/nz-election-2017/</loc>
+    <lastmod>2017-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/r/</loc>
+    <loc>/categories/projects/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/shiny/</loc>
+    <loc>/tags/python/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
     <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/tags/</loc>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2017-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ezekiel.nz/widgets/</loc>
+    <loc>/widgets/</loc>
     <priority>0</priority>
   </url>
   
