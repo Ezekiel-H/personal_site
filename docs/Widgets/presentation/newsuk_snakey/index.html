@@ -1,0 +1,342 @@
+
+
+
+
+
+<script type="text/javascript">
+ 
+
+function gvisDataSankeyID301c944ecd () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"12 weeks for £12",
+"ACTIVE",
+1861
+],
+[
+"12 weeks for £12",
+"CANCELLATION PENDING",
+4
+],
+[
+"12 weeks for £12",
+"CANCELLATION REQUESTED",
+49
+],
+[
+"12 weeks for £12",
+"CANCELLED",
+1796
+],
+[
+"12 weeks for £12",
+"TERMINATED",
+657
+],
+[
+"Classic 7 Day 'Buy 1, get 2 free'",
+"ACTIVE",
+986
+],
+[
+"Classic 7 Day 'Buy 1, get 2 free'",
+"CANCELLATION PENDING",
+1
+],
+[
+"Classic 7 Day 'Buy 1, get 2 free'",
+"CANCELLATION REQUESTED",
+25
+],
+[
+"Classic 7 Day 'Buy 1, get 2 free'",
+"CANCELLED",
+454
+],
+[
+"Classic 7 Day 'Buy 1, get 2 free'",
+"TERMINATED",
+172
+],
+[
+"Classic Pack 3 months",
+"ACTIVE",
+2557
+],
+[
+"Classic Pack 3 months",
+"CANCELLATION PENDING",
+1
+],
+[
+"Classic Pack 3 months",
+"CANCELLATION REQUESTED",
+2
+],
+[
+"Classic Pack 3 months",
+"CANCELLED",
+544
+],
+[
+"Classic Pack 3 months",
+"TERMINATED",
+69
+],
+[
+"Classic Print Pack",
+"ACTIVE",
+4743
+],
+[
+"Classic Print Pack",
+"CANCELLATION REQUESTED",
+17
+],
+[
+"Classic Print Pack",
+"CANCELLED",
+1056
+],
+[
+"Classic Print Pack",
+"TERMINATED",
+172
+],
+[
+"Classic Print Pack",
+"TERMINATION REQUESTED",
+1
+],
+[
+"Classic Sunday Pack",
+"ACTIVE",
+947
+],
+[
+"Classic Sunday Pack",
+"CANCELLATION REQUESTED",
+3
+],
+[
+"Classic Sunday Pack",
+"CANCELLED",
+408
+],
+[
+"Classic Sunday Pack",
+"TERMINATED",
+101
+],
+[
+"Digital Pack - 7 Day Access",
+"ACTIVE",
+4227
+],
+[
+"Digital Pack - 7 Day Access",
+"CANCELLATION REQUESTED",
+20
+],
+[
+"Digital Pack - 7 Day Access",
+"CANCELLED",
+1373
+],
+[
+"Digital Pack - 7 Day Access",
+"TERMINATED",
+822
+],
+[
+"Digital Pack - 7 Day Access",
+"TERMINATION PENDING",
+1
+],
+[
+"Digital Pack - 7 Day Access",
+"TERMINATION REQUESTED",
+1
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"ACTIVE",
+697
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"CANCELLATION REQUESTED",
+5
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"CANCELLED",
+2654
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"PENDING ACTIVATION",
+2
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"TERMINATED",
+1393
+],
+[
+"The Sunday Times Pack Three Month Trial",
+"ACTIVE",
+1097
+],
+[
+"The Sunday Times Pack Three Month Trial",
+"CANCELLATION PENDING",
+11
+],
+[
+"The Sunday Times Pack Three Month Trial",
+"CANCELLATION REQUESTED",
+24
+],
+[
+"The Sunday Times Pack Three Month Trial",
+"CANCELLED",
+823
+],
+[
+"The Sunday Times Pack Three Month Trial",
+"TERMINATED",
+598
+],
+[
+"The Sunday Times Print Only Pack",
+"ACTIVE",
+1893
+],
+[
+"The Sunday Times Print Only Pack",
+"CANCELLATION REQUESTED",
+11
+],
+[
+"The Sunday Times Print Only Pack",
+"CANCELLED",
+70
+],
+[
+"The Sunday Times Print Only Pack",
+"TERMINATED",
+29
+],
+[
+"Ultimate 7 Day Pack (rolling)",
+"ACTIVE",
+2277
+],
+[
+"Ultimate 7 Day Pack (rolling)",
+"CANCELLATION REQUESTED",
+4
+],
+[
+"Ultimate 7 Day Pack (rolling)",
+"CANCELLED",
+417
+],
+[
+"Ultimate 7 Day Pack (rolling)",
+"TERMINATED",
+67
+] 
+];
+data.addColumn('string','title');
+data.addColumn('string','sub_status_code');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+ 
+
+function drawChartSankeyID301c944ecd() {
+var data = gvisDataSankeyID301c944ecd();
+var options = {};
+options["height"] = 480;
+options["tooltip"] = {isHtml:'True'};
+options["sankey"] = {link: { colorMode: 'target' },
+                                           node: { colors: ['#1A237E',
+                                                            '#1B5E20',
+                                                            '#a6cee3',
+                                                            '#b2df8a',
+                                                            '#fb9a99',
+                                                            '#fdbf6f',
+                                                            '#cab2d6', 
+                                                            '#ffff99', 
+                                                            '#1f78b4', 
+                                                            '#33a02c'
+                                                            ],
+                                                   label: { fontSize: 10, bold: true }
+                                                  },
+                                           iterations: 0
+                                      };
+
+
+    var chart = new google.visualization.Sankey(
+    document.getElementById('SankeyID301c944ecd')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "sankey";
+  
+
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+
+callbacks.push(drawChartSankeyID301c944ecd);
+})();
+function displayChartSankeyID301c944ecd() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  
+  
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  
+  
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+
+</script>
+ 
+  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartSankeyID301c944ecd"></script>
+ 
+
+  
+<div id="SankeyID301c944ecd" 
+  style="width: automatic; height: 480;">
+</div>

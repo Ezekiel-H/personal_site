@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny on Ezekiel Haggart</title>
-    <link>/tags/shiny/</link>
+    <link>https://ezekiel.nz/tags/shiny/</link>
     <description>Recent content in Shiny on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ezekiel.nz/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Using Github pages to host personal site</title>
+      <link>https://ezekiel.nz/post/using-github-pages-to-host-personal-site/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezekiel.nz/post/using-github-pages-to-host-personal-site/</guid>
+      <description>I have decided to take advantage of GITHUB&amp;rsquo;s free static hosting and I have moved my personal site ezekiel.nz to git hosting from my droplet. I will use Rstudios free hosting for my shiny apps and host the rendered graphs/docs/etc from ezekiel/widgets.</description>
+    </item>
+    
+    <item>
       <title>Bars per capita in NZ</title>
-      <link>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
+      <link>https://ezekiel.nz/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
+      <guid>https://ezekiel.nz/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
       <description>In New Zealand to distribute alcohol you need to apply to your regional Liqour Licence Authority (LLA) for a permit. The NZ Justice Department produces a list of all liqour licences distributed in a single year.
 I made this shiny app using a data set from NZ Justice Department and a shapefile/population statistics from Statistics to show for each LLA how many persons per bar, club or liqour retailer. This can be understood as bars per capita for NZ grouped by LLA’s.</description>
     </item>

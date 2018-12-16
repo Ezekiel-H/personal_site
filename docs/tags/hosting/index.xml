@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hosting on Ezekiel Haggart</title>
+    <link>https://ezekiel.nz/tags/hosting/</link>
+    <description>Recent content in Hosting on Ezekiel Haggart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ezekiel.nz/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Github pages to host personal site</title>
+      <link>https://ezekiel.nz/post/using-github-pages-to-host-personal-site/</link>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ezekiel.nz/post/using-github-pages-to-host-personal-site/</guid>
+      <description>I have decided to take advantage of GITHUB&amp;rsquo;s free static hosting and I have moved my personal site ezekiel.nz to git hosting from my droplet. I will use Rstudios free hosting for my shiny apps and host the rendered graphs/docs/etc from ezekiel/widgets.</description>
+    </item>
+    
+  </channel>
+</rss>

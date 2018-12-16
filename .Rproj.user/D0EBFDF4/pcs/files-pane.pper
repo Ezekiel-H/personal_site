@@ -1,8 +1,8 @@
 {
-    "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz/public",
+    "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz/content/post",
     "sortOrder" : [
         {
-            "ascending" : true,
+            "ascending" : false,
             "columnIndex" : 2
         }
     ]

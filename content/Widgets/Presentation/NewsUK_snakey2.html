@@ -1,0 +1,152 @@
+<!-- Sankey generated in R 3.3.0 by googleVis 0.6.2 package -->
+<!-- Mon Dec 11 01:27:28 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataSankeyID301cf4f7dab () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Digital Pack - 7 Day Access",
+"ACTIVE",
+4227
+],
+[
+"Digital Pack - 7 Day Access",
+"CANCELLATION REQUESTED",
+20
+],
+[
+"Digital Pack - 7 Day Access",
+"CANCELLED",
+1373
+],
+[
+"Digital Pack - 7 Day Access",
+"TERMINATED",
+822
+],
+[
+"Digital Pack - 7 Day Access",
+"TERMINATION PENDING",
+1
+],
+[
+"Digital Pack - 7 Day Access",
+"TERMINATION REQUESTED",
+1
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"ACTIVE",
+697
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"CANCELLATION REQUESTED",
+5
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"CANCELLED",
+2654
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"PENDING ACTIVATION",
+2
+],
+[
+"Digital Pack - Only £1 for 1 Month",
+"TERMINATED",
+1393
+] 
+];
+data.addColumn('string','title');
+data.addColumn('string','sub_status_code');
+data.addColumn('number','n');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartSankeyID301cf4f7dab() {
+var data = gvisDataSankeyID301cf4f7dab();
+var options = {};
+options["height"] = 480;
+options["tooltip"] = {isHtml:'True'};
+options["sankey"] = {link: { colorMode: 'target' },
+                                           node: { colors: ['#0099CC',
+                                                            '#780000',
+                                                            '#808080',
+                                                            '#181818',
+                                                            '#006699'
+                                                            ],
+                                                   label: { fontSize: 10, bold: true }
+                                                  },
+                                           iterations: 0
+                                      };
+
+
+    var chart = new google.visualization.Sankey(
+    document.getElementById('SankeyID301cf4f7dab')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "sankey";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartSankeyID301cf4f7dab);
+})();
+function displayChartSankeyID301cf4f7dab() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartSankeyID301cf4f7dab"></script>
+ 
+<!-- divChart -->
+  
+<div id="SankeyID301cf4f7dab" 
+  style="width: automatic; height: 480;">
+</div>

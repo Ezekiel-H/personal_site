@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eccomerce on Ezekiel Haggart</title>
-    <link>/tags/eccomerce/</link>
+    <link>https://ezekiel.nz/tags/eccomerce/</link>
     <description>Recent content in Eccomerce on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/eccomerce/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ezekiel.nz/tags/eccomerce/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2018 Current Projects</title>
-      <link>/post/2018-current-projects/</link>
+      <link>https://ezekiel.nz/post/2018-current-projects/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-current-projects/</guid>
+      <guid>https://ezekiel.nz/post/2018-current-projects/</guid>
       <description>Looking ahead at the year I wanted to write down some projects I am working on to better hold myself accountable. This list will be updated periodically as the projects develop.
  NZ Wijn an ecommerce store I am currently building using Python django. This project will be up in running in the next month or two.
  Build a player skills profile app to develop my machine learning skills accross both R and Python.</description>
