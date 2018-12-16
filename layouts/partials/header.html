@@ -12,15 +12,15 @@
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
     {{ if .RSSLink }}
-    <link href="//{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link href="//{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title  | relURL }}" />
+    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
 
     <!-- Bootstrap Core CSS -->
-    <link href="//{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL | relURL }}css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="//{{ .Site.BaseURL }}css/clean-blog.min.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL | relURL }}css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     
@@ -36,7 +36,7 @@
     <![endif]-->
 
     <!-- Custom stylesheet - for your changes-->
-    <link href="//{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL  | relURL }}css/custom.css" rel="stylesheet">
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->

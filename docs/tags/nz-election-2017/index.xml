@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nz Election 2017 on Ezekiel Haggart</title>
-    <link>https://ezekiel-h.github.io/personal_site/tags/nz-election-2017/</link>
+    <link>/personal_site/tags/nz-election-2017/</link>
     <description>Recent content in Nz Election 2017 on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ezekiel-h.github.io/personal_site/tags/nz-election-2017/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/personal_site/tags/nz-election-2017/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Christchurch Election</title>
-      <link>https://ezekiel-h.github.io/personal_site/post/christchurch-election/</link>
+      <link>/personal_site/post/christchurch-election/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ezekiel-h.github.io/personal_site/post/christchurch-election/</guid>
+      <guid>/personal_site/post/christchurch-election/</guid>
       <description>THIS WILL BE UPDATED WITH 2017 RESULTS ONCE SPECIAL VOTES HAVE BEEN COUNTED EXPECTED 8TH OCTChristchurch is New Zealand’s second largest city and in the 2017 election cycle it was a key prize for any of the political parties. I produced a series of interactive graphics to examine the outcome of Christchurch’s current and past three election cycles. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
     </item>
     
