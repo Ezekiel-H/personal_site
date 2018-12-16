@@ -1,7 +1,7 @@
 baseurl = "https://ezekiel-h.github.io/"
 title = "Ezekiel Haggart"
 theme = "startbootstrap-clean-blog"
-publishDir = "ezekiel-h.github.io/personal_site"
+publishDir = "docs"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
