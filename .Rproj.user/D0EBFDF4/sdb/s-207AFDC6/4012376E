@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "baseurl = \"https://ezekiel-h.github.io/personal_site/\"\ntitle = \"Ezekiel Haggart\"\ntheme = \"startbootstrap-clean-blog\"\npublishDir = \"docs\"\nlanguageCode = \"en-us\"\n# Enable comments by entering your Disqus shortname\ndisqusShortname = \"\"\n# Enable Google Analytics by entering your tracking code\ngoogleAnalytics = \"UA-105595834-1\"\n\n[author]\n  name = \"Ezekiel Haggart\"\n\n[params]\n  DateForm = \"Mon Jan 2, 2006\"\n  Description = \"Analytics and Analysis\"\n  Author = \"Ezekiel Haggart\"\n  email = \"Ezekiel.j.p.h@gmail.com\" #Remove this line if you would prefer not to use an email button in the footer.\n  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)\n  showReadTime = true #set to false to exclude read time from header of post\n\n[permalinks]\n\tpage = \"/:title/\"\n\t# about = \"/:filename/\"\n\n[[params.social]]\n  title = \"twitter\"\n  url = \"https://twitter.com/ezekiel_haggart\"\n[[params.social]]\n  title = \"github\"\n  url = \"https://github.com/Ezekiel-H\"\n[[params.social]]\n  title = \"linkedin\"\n  url = \"https://www.linkedin.com/in/ezekielhaggart/\"\n  \n[[menu.main]]\n  name = \"Shiny Apps\"\n  url = \"https://ezekiel.nz/shiny/\"\n  weight = -180\n[[menu.main]]\n  name = \"About\"\n  url = \"/about/\"\n  weight = -180\n[[menu.main]]\n  name = \"CV\"\n  url = \"/files/ezekiel_haggart_cv.pdf\"\n  weight = -180  \n  ",
+    "contents" : "baseurl = \"https://ezekiel-h.github.io/personal_site/\"\ntitle = \"Ezekiel Haggart\"\ntheme = \"startbootstrap-clean-blog\"\npublishDir = \"docs\"\nlanguageCode = \"en-us\"\n# Enable comments by entering your Disqus shortname\ndisqusShortname = \"\" \n# Enable Google Analytics by entering your tracking code\ngoogleAnalytics = \"UA-105595834-1\"\n\n[author]\n  name = \"Ezekiel Haggart\"\n\n[params]\n  DateForm = \"Mon Jan 2, 2006\"\n  Description = \"Analytics and Analysis\"\n  Author = \"Ezekiel Haggart\"\n  email = \"Ezekiel.j.p.h@gmail.com\" #Remove this line if you would prefer not to use an email button in the footer.\n  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)\n  showReadTime = true #set to false to exclude read time from header of post\n\n[permalinks]\n\tpage = \"/:title/\"\n\t# about = \"/:filename/\"\n\n[[params.social]]\n  title = \"twitter\"\n  url = \"https://twitter.com/ezekiel_haggart\"\n[[params.social]]\n  title = \"github\"\n  url = \"https://github.com/Ezekiel-H\"\n[[params.social]]\n  title = \"linkedin\"\n  url = \"https://www.linkedin.com/in/ezekielhaggart/\"\n  \n[[menu.main]]\n  name = \"Shiny Apps\"\n  url = \"https://ezekiel.nz/shiny/\"\n  weight = -180\n[[menu.main]]\n  name = \"About\"\n  url = \"/about/\"\n  weight = -180\n[[menu.main]]\n  name = \"CV\"\n  url = \"/files/ezekiel_haggart_cv.pdf\"\n  weight = -180  \n  ",
     "created" : 1544394422795.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2296673002",
+    "hash" : "1292699704",
     "id" : "4012376E",
     "lastKnownWriteTime" : 1544968501,
-    "last_content_update" : 1544968501635,
+    "last_content_update" : 1544968994184,
     "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz/config.toml",
     "project_path" : "config.toml",
     "properties" : {
