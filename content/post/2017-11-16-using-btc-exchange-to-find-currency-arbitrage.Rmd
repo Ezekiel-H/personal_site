@@ -19,7 +19,7 @@ Bitcoin cryptocurrency is treated as both a currency and more and more an asset 
 
 This quick analysis will look to see if it is theoreticly possible to make money changing NZD for BTC then to GBP and back to NZD via a BTC exchange. Firstly lets look at the price of bitcoin relative to GBP and NZD over its recent history.
 
-<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCPrices.html" width="750"   height="550" style="border: none;"></iframe>
+<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCPrices/" width="750"   height="550" style="border: none;"></iframe>
 
 
 Well two things are very quickly apparent
@@ -38,7 +38,7 @@ This means in theory we could buy use NZD to buy BTC transfer into GBP wallet th
 ***
 
 
-<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCExchange.html" width="750"   height="550" style="border: none;"></iframe>
+<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCExchange/" width="750"   height="550" style="border: none;"></iframe>
 
 
 Here we can see the historic NZD/GBP exchange sourced from the BOE dataset on quandl against the daily BTCExchange understood as the price in BTC GBP vs BTC NZD. 
@@ -49,7 +49,7 @@ Here we can see the historic NZD/GBP exchange sourced from the BOE dataset on qu
 A simple model of when to buy BTC in NZD and when to buy in GBP based on the .05% transfer cost of bitcoin.
 
 
-<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCArbitrage.html" width="750"   height="550" style="border: none;"></iframe>
+<iframe class="chart" src="https://ezekiel.nz/Widgets/BTC/BTCArbitrage/" width="750"   height="550" style="border: none;"></iframe>
 
 
 ## The Details

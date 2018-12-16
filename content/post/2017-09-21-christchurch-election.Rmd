@@ -34,7 +34,7 @@ All the graphs are interactive and you can take off any of the parties/year by u
 
 
 
-<iframe class="chart" src="https://ezekiel.nz/Widgets/ChchElection/chchelection_chart1.html" width="750"   height="550" style="border: none;"></iframe>
+<iframe class="chart" src="https://ezekiel.nz/Widgets/ChchElection/chchelection_chart1/" width="750"   height="550" style="border: none;"></iframe>
 
 
 
@@ -42,7 +42,7 @@ All the graphs are interactive and you can take off any of the parties/year by u
 Looking at the party vote in Christchurch grouping the dataset by year and party. This graph shows Christchurch is a land of the major parties with National, Labour, Greens and NZ First taking up the lions share of the vote. Between 2008 and 2011 we see the most dramatic shift from Labour to National while Greens and NZF continue to make ground into 2014. The minor parties show Act has become all but irrelavant since 2008's high.
 
 
-  <iframe class="chart" src="https://ezekiel.nz/Widgets/ChchElection/chchelection_chart3.html" width="750" height="550" style="border: none;"></iframe>
+  <iframe class="chart" src="https://ezekiel.nz/Widgets/ChchElection/chchelection_chart3/" width="750" height="550" style="border: none;"></iframe>
 
 
 Grouped by year and electorate this graph shows the winning candidate of each electorate along with the margin of victory by votes. Notice Selywn and Christchurch East are pretty safe seats while the Waimakariri, Christchuch Central and Port Hills are all up for grabs. In 2011 Christchurch Central was decided by only 47 votes.
