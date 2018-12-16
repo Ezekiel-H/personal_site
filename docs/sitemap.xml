@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ezekiel-h.github.io/personal_site/post/using-github-pages-to-host-personal-site/</loc>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ezekiel-h.github.io/personal_site/post/2018-current-projects/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
@@ -75,7 +80,7 @@
   
   <url>
     <loc>https://ezekiel-h.github.io/personal_site/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,7 +114,7 @@
   
   <url>
     <loc>https://ezekiel-h.github.io/personal_site/post/</loc>
-    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

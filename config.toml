@@ -4,7 +4,7 @@ theme = "startbootstrap-clean-blog"
 publishDir = "docs"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "" 
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-105595834-1"
 
