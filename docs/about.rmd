@@ -17,7 +17,7 @@ Mostly this site is an excuse to write some Shiny apps and as a place potential 
 
 
 
-```{r, include=TRUE, echo=FALSE, out.width = '100%'}
+```{r, include=FALSE, echo=FALSE, out.width = '100%'}
 
 leaflet() %>%
   addTiles() %>%
