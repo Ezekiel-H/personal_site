@@ -44,8 +44,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "About"
   url = "/about/"
   weight = -180
-[[menu.main]]
-  name = "CV"
-  url = "/files/ezekiel_haggart_cv.pdf"
-  weight = -180  
   

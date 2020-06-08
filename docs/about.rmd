@@ -11,18 +11,18 @@ library(leaflet)
 
 
 
-My name is Ezekiel and I am an analyst from New Zealand based in Amsterdam. I am interested in data analysis, development in R and Python, big data and Machine learning, I love history and politics and the enviroment. 
+My name is Zeke and I work in fraud and from New Zealand based in Amsterdam. I am interested in data, history, politics and the enviroment. Totaly an R and Shiny nerd but spend most of my time working in Python. 
 
-I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes.
+Mostly this site is an excuse to write some Shiny apps and as a place potential rectuiters can see that I have enough ability to run ```blogdown::build_site()``` I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes, please reach out to kiaora@ezekiel.nz
 
 
 
-```{r, include=FALSE}
+```{r, include=TRUE, echo=FALSE, out.width = '100%'}
 
 leaflet() %>%
   addTiles() %>%
-  #addProviderTiles(providers$CartoDB.Positron) %>%
-  addMarkers(lat=51.507351, lng=-0.127758, popup="Zekes in London") 
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addMarkers(lat=52.3667, lng=4.8946, popup="Zekes in Amsterdam") 
 
 
 ```
