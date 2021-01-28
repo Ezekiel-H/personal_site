@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ezekiel Haggart</title>
+    <link>http://ezekiel.nz/</link>
+    <description>Recent content on Ezekiel Haggart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using R and GIT to host a free pesonal site</title>
+      <link>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</guid>
+      <description>When I can I try to use R so when looking to put a personal site together a few years back I thought it was a good time to explore the blogdown package. Using this I was able to build and maintain the site using mostly R, GIT and a good grasp of how to google css/html.
+I thought I would detail a step by step how to follow this to create a barebones copy and how to host it (for free) on GITHUB&amp;rsquo;s pages</description>
+    </item>
+    
+    <item>
+      <title>Using BTC exchange to find currency arbitrage</title>
+      <link>http://ezekiel.nz/post/using-btc-exchange-to-find-currency-arbitrage/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/post/using-btc-exchange-to-find-currency-arbitrage/</guid>
+      <description>Bitcoin cryptocurrency is treated as both a currency and more and more an asset that is exchanged across multiple FX accross the globe. This presents an interesting question does the market balance the FX accross currencies in real time? If not there would be room for arbitrage and a real ability to make money transfering between currencies using BTC markets.
+This quick analysis will look to see if it is theoreticly possible to make money changing NZD for BTC then to GBP and back to NZD via a BTC exchange.</description>
+    </item>
+    
+    <item>
+      <title>Bars per capita in NZ</title>
+      <link>http://ezekiel.nz/post/looking-at-the-density-of-bars-accross-nz-lla-s/</link>
+      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/post/looking-at-the-density-of-bars-accross-nz-lla-s/</guid>
+      <description>In New Zealand to distribute alcohol you need to apply to your regional Liqour Licence Authority (LLA) for a permit. The NZ Justice Department produces a list of all liqour licences distributed in a single year.
+I made this shiny app using a data set from NZ Justice Department and a shapefile/population statistics from Statistics to show for each LLA how many persons per bar, club or liqour retailer. This can be understood as bars per capita for NZ grouped by LLA&amp;rsquo;s.</description>
+    </item>
+    
+    <item>
+      <title>Christchurch Election</title>
+      <link>http://ezekiel.nz/post/christchurch-election/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/post/christchurch-election/</guid>
+      <description>###THIS WILL BE UPDATED WITH 2017 RESULTS ONCE SPECIAL VOTES HAVE BEEN COUNTED EXPECTED 8TH OCT
+Christchurch is New Zealand&amp;rsquo;s second largest city and in the 2017 election cycle it was a key prize for any of the political parties. I produced a series of interactive graphics to examine the outcome of Christchurch&amp;rsquo;s current and past three election cycles. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
+    </item>
+    
+    <item>
+      <title>Ezekiel Haggart</title>
+      <link>http://ezekiel.nz/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/about/</guid>
+      <description>My name is Zeke and I work in fraud and from New Zealand based in Amsterdam. I am interested in data, history, politics and the enviroment. Totaly an R and Shiny nerd but spend most of my time working in Python.
+Mostly this site is an excuse to write some Shiny apps and as a place potential rectuiters can see that I have enough ability to run blogdown::build_site() I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes, please reach out to kiaora@ezekiel.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://ezekiel.nz/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/search/</guid>
+      <description>search</description>
+    </item>
+    
+  </channel>
+</rss>

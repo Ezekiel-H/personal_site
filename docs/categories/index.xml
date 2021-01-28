@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ezekiel Haggart</title>
+    <link>http://ezekiel.nz/categories/</link>
+    <description>Recent content in Categories on Ezekiel Haggart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GIT</title>
+      <link>http://ezekiel.nz/categories/git/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://ezekiel.nz/categories/r/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leaflet</title>
+      <link>http://ezekiel.nz/categories/leaflet/</link>
+      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/categories/leaflet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
