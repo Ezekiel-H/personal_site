@@ -1,0 +1,105 @@
+baseURL: "http://ezekiel.nz/"
+languageCode: en-us
+title: Ezekiel Haggart 
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+# 
+# googleAnalytics: "UA-105595834-1"
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Ezekiel.nz
+    description: "Ezekiel Hagggart person site and portfolio"
+    author: Me
+    # author: ["Me", "You"] # multiple authors
+
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    comments: false
+    defaultTheme: auto
+    disableThemeToggle: false
+    disableSpecial1stPost: false
+
+    assets:
+        # disableHLJS: true # to disable highlightjs
+        # disableFingerprinting: true
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    # label:
+    #     text: "Home"
+    #     icon: /apple-touch-icon.png
+    #     iconHeight: 35
+    # 
+
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: This is my personal website built using yihuis blogdown library. It is mostly a showcase of the apps I have created. See below for some recent work and analysis. For more information check out my about page or get in contact using links in the footer.
+
+    socialIcons:
+        - name: email
+          url: "mailto::ezekiel.haggart@gmail.com"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/ezekielhaggart/"
+        - name: github
+          url: "https://github.com/Ezekiel-H/"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: About
+          name: about
+          url: /about/
+          weight: 10
+        - identifier: Tags
+          name: tags
+          url: /tags/
+          weight: 20
+        # - identifier: ShinyApps
+        #   name: ShinyApps
+        #   url: /ShinyApps/
+        #   weight: 30
+        
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary

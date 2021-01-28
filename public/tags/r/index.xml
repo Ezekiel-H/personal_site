@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Ezekiel Haggart</title>
-    <link>/personal_site/tags/r/</link>
+    <link>http://ezekiel.nz/tags/r/</link>
     <description>Recent content in R on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/personal_site/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2018 Current Projects</title>
-      <link>/personal_site/post/2018-current-projects/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Using R and GIT to host a free pesonal site</title>
+      <link>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/2018-current-projects/</guid>
-      <description>Looking ahead at the year I wanted to write down some projects I am working on to better hold myself accountable. This list will be updated periodically as the projects develop.
- NZ Wijn an ecommerce store I am currently building using Python django. This project will be up in running in the next month or two.
- Build a player skills profile app to develop my machine learning skills accross both R and Python.</description>
+      <guid>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</guid>
+      <description>When I can I try to use R so when looking to put a personal site together a few years back I thought it was a good time to explore the blogdown package. Using this I was able to build and maintain the site using mostly R, GIT and a good grasp of how to google css/html.
+I thought I would detail a step by step how to follow this to create a barebones copy and how to host it (for free) on GITHUB&amp;rsquo;s pages</description>
     </item>
     
   </channel>

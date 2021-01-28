@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Highcharter on Ezekiel Haggart</title>
-    <link>/personal_site/tags/highcharter/</link>
-    <description>Recent content in Highcharter on Ezekiel Haggart</description>
+    <title>highcharter on Ezekiel Haggart</title>
+    <link>http://ezekiel.nz/tags/highcharter/</link>
+    <description>Recent content in highcharter on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/personal_site/tags/highcharter/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 21 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/tags/highcharter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Christchurch Election</title>
-      <link>/personal_site/post/christchurch-election/</link>
+      <link>http://ezekiel.nz/post/christchurch-election/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal_site/post/christchurch-election/</guid>
-      <description>THIS WILL BE UPDATED WITH 2017 RESULTS ONCE SPECIAL VOTES HAVE BEEN COUNTED EXPECTED 8TH OCTChristchurch is New Zealand’s second largest city and in the 2017 election cycle it was a key prize for any of the political parties. I produced a series of interactive graphics to examine the outcome of Christchurch’s current and past three election cycles. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
+      <guid>http://ezekiel.nz/post/christchurch-election/</guid>
+      <description>###THIS WILL BE UPDATED WITH 2017 RESULTS ONCE SPECIAL VOTES HAVE BEEN COUNTED EXPECTED 8TH OCT
+Christchurch is New Zealand&amp;rsquo;s second largest city and in the 2017 election cycle it was a key prize for any of the political parties. I produced a series of interactive graphics to examine the outcome of Christchurch&amp;rsquo;s current and past three election cycles. The analysis was built using data sourced from data.govt.nz and elections.org.nz. The boundries of some of the Christchurch electorates reach beyond the city limits but for the sake of this assessment the electorates were kept as a whole.</description>
     </item>
     
   </channel>

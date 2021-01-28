@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIT on Ezekiel Haggart</title>
+    <link>http://ezekiel.nz/tags/git/</link>
+    <description>Recent content in GIT on Ezekiel Haggart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using R and GIT to host a free pesonal site</title>
+      <link>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</guid>
+      <description>When I can I try to use R so when looking to put a personal site together a few years back I thought it was a good time to explore the blogdown package. Using this I was able to build and maintain the site using mostly R, GIT and a good grasp of how to google css/html.
+I thought I would detail a step by step how to follow this to create a barebones copy and how to host it (for free) on GITHUB&amp;rsquo;s pages</description>
+    </item>
+    
+  </channel>
+</rss>
