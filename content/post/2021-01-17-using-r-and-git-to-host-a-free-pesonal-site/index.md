@@ -101,7 +101,7 @@ Awesome simple as that. So now on to GIT.
 
 
 #### GIT
-Following the [GIT pages](https://pages.github.com/) guide you need to sign up for an account and create a repo. The one for this site is called personal_site as an example but I will continue with the example_ezekiel repo.
+Following the [GIT pages](https://pages.github.com/) guide you need to sign up for an account and create a repo. The one for this site is called personal_site as an example but I will continue with the example_ezekiel.nz repo.
 
 
 Go to the folder where you want to store your project, and initiate the repo with
@@ -120,14 +120,10 @@ git push -u origin master
 ```
 
 
-Now in the settings
+Now in the settings change the source to docs/
 
-```
-https://github.com/Ezekiel-H/example_ezekiel.nz/settings
 
-```
-
-Adjust the source to /docs and you should be done now at https://Ezekiel-H.example_ezekiel.github.io you should have a functional site.
+Adjust the source to /docs and you should be done now at https://ezekiel-h.github.io/example_ezekiel.nz/ you should have a functional site.
 
 
 

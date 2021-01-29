@@ -1,9 +1,9 @@
 {
-    "path" : "C:/Users/Ezekiel/Desktop/R/ezekiel.nz",
-    "sortOrder" : [
+    "path": "C:/Users/Ezekiel/Desktop/R/ezekiel.nz_update",
+    "sortOrder": [
         {
-            "ascending" : false,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": false
         }
     ]
 }
