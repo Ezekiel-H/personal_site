@@ -94,4 +94,45 @@ blogdown::build_site()
 blogdown::serve_site()
 ```
 
+This should render down a new folder ```/public``` which we will use as part of the deployment flow.
+The way I would advise is to create a folder ```/docs``` and copy the public folder across after rendering the build. 
+
+Awesome simple as that. So now on to GIT. 
+
+
+#### GIT
+Following the [GIT pages](https://pages.github.com/) guide you need to sign up for an account and create a repo. The one for this site is called personal_site as an example but I will continue with the example_ezekiel repo.
+
+
+Go to the folder where you want to store your project, and initiate the repo with
+
+```
+git init
+
+git add . 
+
+git commit -m "initial commit"
+
+git remote add origin git@github.com:Ezekiel-H/example_ezekiel
+
+git push -u origin master
+
+```
+
+
+Now in the settings
+
+```
+https://github.com/Ezekiel-H/example_ezekiel.nz/settings
+
+```
+
+Adjust the source to /docs and you should be done now at https://Ezekiel-H.example_ezekiel.github.io you should have a functional site.
+
+
+
+
+
+
+
 

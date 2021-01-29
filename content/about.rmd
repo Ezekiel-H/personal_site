@@ -1,6 +1,6 @@
 ---
 title: "Ezekiel Haggart"
-type: "About"
+type: "about"
 ---
 
 
@@ -11,9 +11,9 @@ library(leaflet)
 
 
 
-My name is Zeke and I work in fraud and from New Zealand based in Amsterdam. I am interested in data, history, politics and the enviroment. Totaly an R and Shiny nerd but spend most of my time working in Python. 
+My name is Zeke and I work in fraud and from New Zealand based in Amsterdam. I am interested in data, history, politics and the environment. Totaly an R and Shiny nerd but spend most of my time working in Python. 
 
-Mostly this site is an excuse to write some Shiny apps and as a place potential rectuiters can see that I have enough ability to run ```blogdown::build_site()``` I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and enviromental causes, please reach out to kiaora@ezekiel.nz
+Mostly this site is an excuse to write some Shiny apps and as a place potential rectuiters can see that I have enough ability to run ```blogdown::build_site()``` I am excited to learn how I can help with charitable or open source projects especially focused on sustainability and environmental causes, please reach out to kiaora@ezekiel.nz
 
 
 
