@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Widgets on Ezekiel Haggart</title>
+    <link>http://ezekiel.nz/widgets/</link>
+    <description>Recent content in Widgets on Ezekiel Haggart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://ezekiel.nz/widgets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://ezekiel.nz/widgets/presentations/test/test_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/widgets/presentations/test/test_2/</guid>
+      <description>test_2 author: date: autosize: true
+First Slide For more details on authoring R presentations please visit https://support.rstudio.com/hc/en-us/articles/200486468.
+ Bullet 1 Bullet 2 Bullet 3  Slide With Code summary(cars)  speed dist Min. : 4.0 Min. : 2.00 1st Qu.:12.0 1st Qu.: 26.00 Median :15.0 Median : 36.00 Mean :15.4 Mean : 42.98 3rd Qu.:19.0 3rd Qu.: 56.00 Max. :25.0 Max. :120.00 Slide With Plot </description>
+    </item>
+    
+    <item>
+      <title>Habits</title>
+      <link>http://ezekiel.nz/widgets/presentations/test/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/widgets/presentations/test/test/</guid>
+      <description>  In the morning Getting up  Turn off alarm Get out of bed   Breakfast  Eat eggs Drink coffee    In the evening Dinner  Eat spaghetti Drink wine   Figure 1: A scatterplot.   Going to sleep  Get in bed Count sheep    </description>
+    </item>
+    
+  </channel>
+</rss>
