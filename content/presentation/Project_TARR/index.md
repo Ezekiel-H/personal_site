@@ -5,9 +5,9 @@ date: '2021-05-03'
 slug: tarr
 ---
 
-A project I am proud of is rolling out a strategy to send fraud rejected traffic to 3DS unlocking 40+ million in benefit from otherwise declined  good bookers. Why am I proud of this, well it worked. Until it didn't. Righting the ship took made the project more interesting. 
+*All figures are made up for illustrative purposes*
 
-Also similar to how you work at Vend this project was conceived and driven between myself and an engineering lead. 
+A project I am proud of is rolling out a strategy to send fraud rejected traffic to 3DS unlocking 40+ million in benefit from otherwise declined good customers. Why am I proud of this, well it worked. Until it didn't. Righting the ship was a challenge and ultimately makes the project more interesting. 
 
 ## Agenda
 
@@ -16,7 +16,7 @@ So what are we going to talk about today?
 - Background, what is fraud? what is the product vision?
 - Why TARR, why now?
 - Exploring the idea, using GOAL
-- Roll out and delegation. 
+- Roll out and delegation 
 - Unforeseen risks righting the ship
 - Reflections
 
@@ -24,16 +24,18 @@ So what are we going to talk about today?
 ## Background and what is fraud?
 
 
-Given you have given me up to an hour to present Ive taken the liberty to take my time and show you how to commit fraud. 
+Given you have given me up to an hour to present I've taken the liberty to take my time and show you how to commit fraud. 
 
 [What is payments fraud anyway?](https://docs.google.com/presentation/d/e/2PACX-1vTYrcIjbag7OPlnpeOlxMGg1p493MFYcujaC9XX4Q87_tyC-nJkL6Jz8KnU6tQNtw31qXrWhKhlGcGp/pub?start=false&loop=false&delayms=3000)
 
 
-So now we know how to commit fraud what is it I do and "why does this matter"
+With 100s of millions at risk a year would want a solution to stop it.
+- One solution is to stop all the fraud, by stopping all payments... so the ongoing challenge is balancing fraud risk while approving good customers. 
 
-- 100s of millions at risk a year. 
-- Solution stop fraud by stopping all payments... so the ongoing challenge is balancing fraud risk while approving good customers. 
+So our **product vision** is all about improving payment performance. 
 - The team is then tasked with constantly trying to move the needle on the cost of fraud metric, while products, markets and strategy moves.  
+
+So now we know what fraud is, and why does it matters lets talk about the TARR project.
 
 
 --- 
@@ -41,7 +43,7 @@ So now we know how to commit fraud what is it I do and "why does this matter"
 
 ## TARR
 
-**So how can you move the needle along, improve good traffic being accepted or block more fraud.**  Looking across the payment flow we see oppotunities and risks.
+**So how can you move the needle along, improve good traffic being accepted or block more fraud.**  Looking across the payment flow we see opportunities and risks.
 
 <iframe width="768" height="432" src="https://ezekiel.nz/Widgets/sankeyColor1.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
@@ -71,7 +73,7 @@ Outside of the gain from moving the needle along we were targeting.
 ---
 ---
 
-#### TARR using the GAME structure. 
+### TARR using the GAME structure. 
 
 - **Goal** Release a new pipeline to unlock customers otherwise rejected for fraud.
 - **Action** Construct and monitor an ability to send rejected customers to 3DS. 
@@ -90,10 +92,11 @@ Outside of the gain from moving the needle along we were targeting.
     - ~~3DS enrollment~~
     - 3DS pass rates (proxy)
 - **Evaluate** Evaluate if the metric could be a false positive indicator
-  - As fraud takes time to mature 
+  - Fraud takes time to mature
+  - What are outside influences
 
 
-#### Mapping stakeholders
+### Mapping stakeholders
 
 We wanted to consider the impact the project would have on various teams the level of commitment required and how aligned with product goals it was. Touching on some of the key points of consideration below. 
 
@@ -103,6 +106,7 @@ We wanted to consider the impact the project would have on various teams the lev
 - Clearly mapped goals.
 - Increasing fraud risk with new flow.
 - Addition of technical debt.
+- Operational research into roll out
 
 **Payments**
 - Upstream and downstream stakeholders.
@@ -115,47 +119,47 @@ We wanted to consider the impact the project would have on various teams the lev
 **External**
 - Managing expectations and describing the product goals and risks clearly.
 
-So how? Proposal doc, drafted then reviewed within fraud. Presented to payments and platform PMs. Signed off and then road mapped. 
+### Getting buy in 
 
-#### Getting buy in 
+**So how?**,  how did we involve the rest of the company and ensured their buy in. **Trust**. Delivered, detailed, data backed trust. 
 
-How you involved the rest of the company and ensured their buy in
+Completing a joint proposal document, then reviewed within fraud. Later presented to payments and platform PMs. Signed off and then road mapped. 
 
+Iterations and feedback added during this time:
+- Initial insight from operations allowed us to remove high risk and areas with low 3DS adoption or structural issues. 
+- Developers able to produce a new fraud API call post 'decline' in MVP flow.  
+  - With a new flow there wasn't enough to leverage ML so rules were the decided solution. 
+- Limited vision over liability shifted flags due to payments delays.
+  - As a result the fraud mitigation would have to be found via anomaly analysis of segmentation growth. - 3RD party vendor negotiated to get feedback loop on false posties. 
+- High risk limited tools but high potential the project was ready to launch in weekly iterative percentages. 
+- Key ownership were assigned and formal communications defined.  
 
-Ongoing relationships with each of the various teams
-
-
-
----
 
 ## Roll out and delegation. 
 
-Engaging in consensus the project built out a new flow for traffic, bespoke monitoring and mitigation. 
+Rolling out the project it was a matter of connecting the various parts of the roadmap ensuring blockers were removed and the different stakeholders were kept informed. For example confirming with the payments strategy team on PSPs that supported 3DS, passing this to operations to define as a source of truth and create a 
 
-- Incremental 
-Cycle review, early coms, contious updates. 
-5% to 10% 
+Then moving less hands on the senior analyst now solely accountable for continued monitoring, implementation of mitigation and communication with the development teams to progress the project from 5% to 100% roll out. 
 
-then moving to a stakeholder as the senior analyst took over monitoring and implimentation and communication with the dev to update the flows. 
-
-Leveraging learnings into further work on vendor management and foundational work for other products. 
 
 ## Unforeseen risks righting the ship
 
-4 - 6 weeks later. Early issues began to emerge. Metric xyz increased. The analyst investigating the situation explained the issue. Fraud was being sent to 3DS yes. But it was sometimes enrolled while shopping passing the liability back to us. 
-
-Metrics of fraud rate and traffic showed something was going very wrong.
+4 - 6 weeks later. Early issues began to emerge. The fraud rate was spiking.
 
 <iframe width="768" height="432" src="https://ezekiel.nz/Widgets/chart.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
-Graph here on 
-- all data is dummy
 
-Short term scale back from 50% to 5% with specific behavioural pattern blocked
+The analyst investigating the situation explained the issue. Fraud was being sent to 3DS yes. But it was sometimes enrolled while shopping passing the liability back to us. 
 
-- No operational ability to mitigate over time
-- Payments track did not have this feature available and was likely a 6 week ask. 
+Assessing the situation:
+- We had a short term fix with specific behavioral pattern blocked. 
+  - No operational ability to mitigate over time
+  - The product was no longer viable without the liability flag.
+- Payments track did not have this feature available and was unlikely in this quarter to be able to shift focus. 
+
+Taking quick actions
+- Short term scale back from 50% to 5%.
 - Discussions quickly upward to send early signal that project might be killed.
-- Bridged discussion with our PSP on solution, able to buy off the shelf a a solution that can be implimented on the specific call. 
+- Opened discussion with our PSP on solution, presented with option to buy off the shelf a a solution that can be implemented on the specific call. 
 
 
 - Righting the ship
