@@ -26,13 +26,7 @@ So what are we going to talk about today?
 
 Given you have given me up to an hour to present Ive taken the liberty to take my time and show you how to commit fraud. 
 
-
---- 
-
-what is fraud la la 
-
----
-
+[What is payments fraud anyway?](https://docs.google.com/presentation/d/e/2PACX-1vTYrcIjbag7OPlnpeOlxMGg1p493MFYcujaC9XX4Q87_tyC-nJkL6Jz8KnU6tQNtw31qXrWhKhlGcGp/pub?start=false&loop=false&delayms=3000)
 
 
 So now we know how to commit fraud what is it I do and "why does this matter"
@@ -68,6 +62,10 @@ We considered what if we just sent all the rejected traffic to 3DS? **Terrible i
 
 <iframe width="768" height="432" src="https://ezekiel.nz/Widgets/sankeyColor2.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
+Outside of the gain from moving the needle along we were targeting.
+- Customer experience, customers otherwise rejected would now have a path to book. 
+- Lowering impact on CS and PS outbound. 
+- Increasing authorizations on traffic supporting payments strategic goals. 
 
 
 ---
@@ -77,26 +75,52 @@ We considered what if we just sent all the rejected traffic to 3DS? **Terrible i
 
 - **Goal** Release a new pipeline to unlock customers otherwise rejected for fraud.
 - **Action** Construct and monitor an ability to send rejected customers to 3DS. 
-  - Ensure 3DS flow was being triggered
-  - Ensure there was an opt out option
-  - Appropriate flags 
-  - Monitoring ongoing
-
-
-- **Metrics** What are the metrics that indicate users are taking Actions to align with Goals
+  - Ensure 3DS flow was being triggered.
+  - Ensure there was an opt out option.
+  - Appropriate flags to be passed and documented. 
+  - Monitoring ongoing and actionable. 
+- **Metrics** 
+  - High level
+    - Fraud rate
+    - Product cost (Added commission less fraud)
+    - Traffic
+  - Detailed level
+    - Growth by 'segment' 
+    - ~~Liability~~
+    - ~~3DS enrollment~~
+    - 3DS pass rates (proxy)
 - **Evaluate** Evaluate if the metric could be a false positive indicator
+  - As fraud takes time to mature 
 
 
 #### Mapping stakeholders
 
-Who you worked with and how to find the best solution (collaboration)
+We wanted to consider the impact the project would have on various teams the level of commitment required and how aligned with product goals it was. Touching on some of the key points of consideration below. 
+
+![My picture](images/Stakeholder_Map.jpg)
+
+**Fraud**
+- Clearly mapped goals.
+- Increasing fraud risk with new flow.
+- Addition of technical debt.
+
+**Payments**
+- Upstream and downstream stakeholders.
+- Potential blocker. 
+- Ensure product did not impact existing strategic markets or experiments.
+
+**Platform**
+- Support long term and dependent on flags.
+
+**External**
+- Managing expectations and describing the product goals and risks clearly.
+
+So how? Proposal doc, drafted then reviewed within fraud. Presented to payments and platform PMs. Signed off and then road mapped. 
 
 #### Getting buy in 
 
 How you involved the rest of the company and ensured their buy in
 
-
-![My picture](images/Stakeholder_Map.jpg)
 
 Ongoing relationships with each of the various teams
 
@@ -106,7 +130,7 @@ Ongoing relationships with each of the various teams
 
 ## Roll out and delegation. 
 
-Engaging in consus the project built out a new flow for traffic, bespoke monitoring and mitigation. 
+Engaging in consensus the project built out a new flow for traffic, bespoke monitoring and mitigation. 
 
 - Incremental 
 Cycle review, early coms, contious updates. 
@@ -120,6 +144,9 @@ Leveraging learnings into further work on vendor management and foundational wor
 
 4 - 6 weeks later. Early issues began to emerge. Metric xyz increased. The analyst investigating the situation explained the issue. Fraud was being sent to 3DS yes. But it was sometimes enrolled while shopping passing the liability back to us. 
 
+Metrics of fraud rate and traffic showed something was going very wrong.
+
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/chart.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 Graph here on 
 - all data is dummy
 
