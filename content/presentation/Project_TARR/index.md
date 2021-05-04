@@ -57,7 +57,7 @@ So where were we?
 3DS was historically a black box SCA improved the infrastructure for visibility. We had sable fraud rates and due to COVID the risk was higher of rejecting good traffic. 
 
 
-<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/snakeyColor1.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/sankeyColor1.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
 
 We considered what if we just sent all the rejected traffic to 3DS? **Terrible idea.** but  could we make it a good one. 
@@ -72,7 +72,7 @@ Traffic - Model review - Third party validation
 
 #### TARR using the GOAL structure. 
 
-- **Goal** What is the goal and vision of the product?
+- **Goal** Release a new pipeline to 
 - **Action** What actions are users taking to align with the product Goals?
 - **Metrics** What are the metrics that indicate users are taking Actions to align with Goals
 - **Evaluate** Evaluate if the metric could be a false positive indicator
