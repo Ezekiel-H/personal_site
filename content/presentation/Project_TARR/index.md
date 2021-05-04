@@ -29,7 +29,7 @@ Given you have given me up to an hour to present I've taken the liberty to take 
 [What is payments fraud anyway?](https://docs.google.com/presentation/d/e/2PACX-1vTYrcIjbag7OPlnpeOlxMGg1p493MFYcujaC9XX4Q87_tyC-nJkL6Jz8KnU6tQNtw31qXrWhKhlGcGp/pub?start=false&loop=false&delayms=3000)
 
 
-With 100s of millions at risk a year would want a solution to stop it.
+With 100s of millions at risk a year we would want a solution to stop it.
 - One solution is to stop all the fraud, by stopping all payments... so the ongoing challenge is balancing fraud risk while approving good customers. 
 
 So our **product vision** is all about improving payment performance. 
@@ -52,13 +52,13 @@ We can improve the model accept by investments in ML or new/improved features. O
 Staying involved in what matters, discussions with vendors, colleges and the business, watching the movements of the industry and competitors. Weekly discussions across internal payments teams, platform, accommodations operations allows us to better understand where we are what blockers are there and have been moved. 
 
 So right before TARR where were we?
-- COVID had lowered traffic substantially (outside impact)
+- COVID had lowered traffic substantially (outside impact).
 - Riskified (our 3rd party vendor) was being pushed to preform better, within expectations.
-- Our model was preformant and gains slower (continuous improvement)
+- Our model was preformant and gains slower (continuous improvement).
 - Operations had limited ability to find or optimize features.
-- **Platform had recently migrated all SCA flows allowing for better visibility into 3DS**
+- **Platform had recently migrated all SCA flows allowing for better visibility into 3DS**.
 
-This Last point was the basis for trying out a new approach to unlock the good customers in declined bucket. 3DS was historically a black box SCA forced an improvement of the infrastructure increasing visibility. We had stable fraud rates and due to COVID on balance the risk was higher of rejecting good traffic. 
+This last point was the basis for trying out a new approach to unlock the good customers in declined bucket. 3DS was historically a black box SCA forced an improvement of the infrastructure increasing visibility. We had stable fraud rates and due to COVID on balance the risk was higher of rejecting good traffic. 
 
 We considered what if we just sent all the rejected traffic to 3DS? **Terrible idea.** But could we make it a good one. 
 
@@ -76,7 +76,8 @@ Outside of the gain from moving the needle along we were targeting.
 ### TARR using the GAME structure. 
 
 - **Goal** Release a new pipeline to unlock customers otherwise rejected for fraud.
-- **Action** Construct and monitor an ability to send rejected customers to 3DS. 
+- **Action** 
+- Construct and monitor an ability to send rejected customers to 3DS. 
   - Identify and mitigate segments where 3DS is not available. 
   - Ensure 3DS flow was being triggered.
   - Ensure there was an opt out option.
@@ -85,17 +86,18 @@ Outside of the gain from moving the needle along we were targeting.
 - **Metrics** 
   - High level (Weekly splits)
     - Fraud rate. 
-    - Product cost (Added commission less fraud).
     - Traffic. 
+    - Product value (Unblocked commission less fraud).
   - Detailed level (Daily splits)
     - Growth by 'segment'.
     - ~~Liability~~
     - ~~3DS enrollment~~
     - 3DS pass rates (proxy). 
-- **Evaluate** Evaluate if the metric could be a false positive indicator
-  - Fraud maturation
-  - Unique vs non unique
-  - Payments experiments and outside influence
+- **Evaluate** 
+- Evaluate if the metric could be a false positive indicator
+  - Fraud maturation.
+  - Unique vs non unique.
+  - Payments experiments and outside influence.
 
 
 ### Mapping stakeholders
@@ -138,7 +140,7 @@ Assessing the situation:
 Taking quick actions
 - Short term scale back from 50% to 5%.
 - Discussions quickly upward to send early signal that project might be killed.
-- Opened discussion with our PSP on solution, presented with option to buy off the shelf a a solution that can be implemented on the specific call.
+- Opened discussion with our PSP on issue, presented with option to buy off the shelf a solution that can be implemented on the specific call.
 - Opened new analysis on potential value of the project with added data.
 
 
@@ -180,6 +182,6 @@ What I hope this project highlights that I do think would support success at Ven
 - How I can fail, learn and pivot. 
 
 
-A final point is maybe where is Vend going? When you consider the likes of Booking, Uber, Amazon all applying for payment service licenses the impact of owning that payment flow has immense benfits at scale. 
+A final point is maybe where is Vend going? When you consider the likes of Booking, Uber, Amazon all applying for payment service licenses the impact of owning that payment flow has immense benefits at scale. One big risk I see is  [Stripe](https://stripe.com/nz/terminal?utm_campaign=paid_generic-NZ_Search_Category_Terminal-12762805561&utm_medium=cpc&utm_source=google&ad_content=514924567826&utm_term=kwd-869085600&utm_matchtype=b&utm_adposition=&utm_device=c&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPFH62E8GZfgt6psLQrLS9o2eiVmW6MIMkn_WXbHQd4qbrt8ycsI5LAaAga-EALw_wcB) a payments first pos provider.
 
-So where is Vend going? One big risk I see is  [Stripe](https://stripe.com/nz/terminal?utm_campaign=paid_generic-NZ_Search_Category_Terminal-12762805561&utm_medium=cpc&utm_source=google&ad_content=514924567826&utm_term=kwd-869085600&utm_matchtype=b&utm_adposition=&utm_device=c&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPFH62E8GZfgt6psLQrLS9o2eiVmW6MIMkn_WXbHQd4qbrt8ycsI5LAaAga-EALw_wcB) a payments first pos provider. 
+
