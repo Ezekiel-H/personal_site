@@ -3,27 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ezekiel.nz/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/presentation/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/presentation/tarr/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/tags/analytics/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/categories/analytics/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/categories/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/tags/fraud/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/categories/fraud/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/tags/graph-networks/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/post/2021-04-26-graph-networks-and-fraud/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/post/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/tags/r/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/categories/r/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/tags/shiny/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ezekiel.nz/tags/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ezekiel.nz/presentation/90-day-plan/</loc>
     <lastmod>2021-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ezekiel.nz/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/presentation/</loc>
-    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://ezekiel.nz/tags/blogdown/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/categories/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -39,26 +99,6 @@
   
   <url>
     <loc>http://ezekiel.nz/tags/hosting/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/post/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/tags/r/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/categories/r/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/tags/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -114,11 +154,6 @@
   
   <url>
     <loc>http://ezekiel.nz/tags/nz/</loc>
-    <lastmod>2017-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ezekiel.nz/tags/shiny/</loc>
     <lastmod>2017-09-23T00:00:00+00:00</lastmod>
   </url>
   

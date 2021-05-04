@@ -6,7 +6,16 @@
     <description>Recent content in R on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graph networks and fraud</title>
+      <link>http://ezekiel.nz/post/2021-04-26-graph-networks-and-fraud/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/post/2021-04-26-graph-networks-and-fraud/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Using R and GIT to host a free pesonal site</title>
       <link>http://ezekiel.nz/post/using-r-and-git-to-host-a-pesonal-site/</link>

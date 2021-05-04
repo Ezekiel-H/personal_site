@@ -1,0 +1,141 @@
+---
+title: "Project TARR"
+author: "Ezekiel Haggart"
+date: '2021-05-03'
+slug: tarr
+---
+
+A project I am proud of is rolling out a strategy to send fraud rejected traffic to 3DS unlocking 40+ million in benefit from otherwise declined  good bookers. Why am I proud of this, well it worked. Until it didn't. Righting the ship took made the project more interesting. 
+
+
+## Agenda
+
+So what are we going to talk about today?
+
+- Background, what is fraud? what is the product vision?
+- Why TARR, why now?
+- Exploring the idea, using GOAL
+- Roll out and delegation. 
+- Unforeseen risks righting the ship
+- Reflections
+
+
+## Background and what is fraud?
+
+
+Given you have given me up to an hour to present Ive taken the liberty to take my time and show you how to commit fraud. 
+
+
+--- 
+
+what is fraud la la 
+
+---
+
+
+
+So now we know how to commit fraud what is it I do and "why does this matter"
+
+- 100s of millions at risk a year. 
+- Solution stop fraud by stopping all payments... so the ongoing challenge is balancing fraud risk while approving good customers. 
+- The team is then tasked with constantly trying to move the needle on the cost of fraud metric, while products, markets and strategy moves.  
+
+
+## TARR
+
+**So how can you move the needle along, improve good traffic being accepted or block more fraud.** We can improve the ML model, improve features, outsource a 3rd party liability shift after decline. Continuous improvement aside, how do we come up with creative (read good) ideas? Staying involved in what matters, discussions with vendors, colleges and the business, watching the movements of the industry and competitors. 
+
+Weekly discussions across internal payments teams, platform, accommodations operations allows us to better understand where we are what blockers are there and have been moved. 
+
+So where were we?
+- COVID had lowered traffic substantially (outside impact)
+- Riskified (our vendor) was being pushed to preform better.
+- Our model was preformant and gains slower (continuous improvement)
+- Operations had limited ability to find golden features.
+- **Platform had recently supported us in SCA flows.**
+
+3DS was historically a black box SCA improved the infrastructure for visibility. We had sable fraud rates and due to COVID the risk was higher of rejecting good traffic. 
+
+
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/snakeyColor1.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
+
+We considered what if we just sent all the rejected traffic to 3DS? **Terrible idea.** but  could we make it a good one. 
+
+Image of booker flows
+
+Traffic - Model review - Third party validation 
+
+
+---
+---
+
+#### TARR using the GOAL structure. 
+
+- **Goal** What is the goal and vision of the product?
+- **Action** What actions are users taking to align with the product Goals?
+- **Metrics** What are the metrics that indicate users are taking Actions to align with Goals
+- **Evaluate** Evaluate if the metric could be a false positive indicator
+
+
+#### Mapping stakeholders
+
+Who you worked with and how to find the best solution (collaboration)
+
+#### Getting buy in 
+
+How you involved the rest of the company and ensured their buy in
+
+---
+
+## Roll out and delegation. 
+
+Engaging in consus the project built out a new flow for traffic, bespoke monitoring and mitigation. 
+
+- Incremental 
+Cycle review, early coms, contious updates. 
+5% to 10% 
+
+then moving to a stakeholder as the senior analyst took over monitoring and implimentation and communication with the dev to update the flows. 
+
+Leveraging learnings into further work on vendor management and foundational work for other products. 
+
+## Unforeseen risks righting the ship
+
+4 - 6 weeks later. Early issues began to emerge. Metric xyz increased. The analyst investigating the situation explained the issue. Fraud was being sent to 3DS yes. But it was sometimes enrolled while shopping passing the liability back to us. 
+
+Graph here on 
+- all data is dummy
+
+Short term scale back from 50% to 5% with specific behavioural pattern blocked
+
+- No operational ability to mitigate over time
+- Payments track did not have this feature available and was likely a 6 week ask. 
+- Discussions quickly upward to send early signal that project might be killed.
+- Bridged discussion with our PSP on solution, able to buy off the shelf a a solution that can be implimented on the specific call. 
+
+
+- Righting the ship
+
+Under 1 week turn around on off shelf solution. Re trigger up to 50% scale and monitor. 
+
+---
+
+- Reflections
+
+Outside normal analyst flow
+
+
+### TARR at vend??
+
+Well Vend is not the merchant on record, so maybe not a good idea, but your customers care. 
+
+What I hope this project highlights that I do think is impactful at Vend.
+- Developing new ideas ontop of existing frameworks
+- point point
+
+
+
+A final point is maybe where is Vend going? When you consider the likes of Booking, Uber, Amazon all applying for payment service licenses the impact of owning that payment flow has immense benfits at scale. 
+
+So where is Vend going? One big risk I see is [Stripe](https://stripe.com/nz/terminal?utm_campaign=paid_generic-NZ_Search_Category_Terminal-12762805561&utm_medium=cpc&utm_source=google&ad_content=514924567826&utm_term=kwd-869085600&utm_matchtype=b&utm_adposition=&utm_device=c&gclid=Cj0KCQjwvr6EBhDOARIsAPpqUPFH62E8GZfgt6psLQrLS9o2eiVmW6MIMkn_WXbHQd4qbrt8ycsI5LAaAga-EALw_wcB) they have more data. 

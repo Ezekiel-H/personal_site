@@ -6,7 +6,18 @@
     <description>Recent content in Presentations on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project TARR</title>
+      <link>http://ezekiel.nz/presentation/tarr/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/presentation/tarr/</guid>
+      <description>A project I am proud of is rolling out a strategy to send fraud rejected traffic to 3DS unlocking 40+ million in benefit from otherwise declined good bookers. Why am I proud of this, well it worked. Until it didn&amp;rsquo;t. Righting the ship took made the project more interesting.
+Agenda So what are we going to talk about today?
+ Background, what is fraud? what is the product vision? Why TARR, why now?</description>
+    </item>
+    
     <item>
       <title>90 day plan</title>
       <link>http://ezekiel.nz/presentation/90-day-plan/</link>

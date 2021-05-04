@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics</title>
+      <link>http://ezekiel.nz/tags/analytics/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fraud</title>
+      <link>http://ezekiel.nz/tags/fraud/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/tags/fraud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Networks</title>
+      <link>http://ezekiel.nz/tags/graph-networks/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/tags/graph-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://ezekiel.nz/tags/r/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>http://ezekiel.nz/tags/shiny/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Blogdown</title>
       <link>http://ezekiel.nz/tags/blogdown/</link>
@@ -31,15 +76,6 @@
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>http://ezekiel.nz/tags/hosting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>http://ezekiel.nz/tags/r/</link>
-      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://ezekiel.nz/tags/r/</guid>
       <description></description>
     </item>
     
@@ -103,15 +139,6 @@
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>http://ezekiel.nz/tags/nz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>http://ezekiel.nz/tags/shiny/</link>
-      <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://ezekiel.nz/tags/shiny/</guid>
       <description></description>
     </item>
     
