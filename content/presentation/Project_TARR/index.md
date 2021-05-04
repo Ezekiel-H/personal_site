@@ -47,20 +47,20 @@ So now we know what fraud is, and why does it matters lets talk about the TARR p
 
 <iframe width="768" height="432" src="https://ezekiel.nz/Widgets/sankeyColor1.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
-We can improve the ML model, improve features, outsource a 3rd party liability shift after decline. Continuous improvement aside, how do we come up with creative (read good) ideas? Staying involved in what matters, discussions with vendors, colleges and the business, watching the movements of the industry and competitors. 
+We can improve the model accept buy investments in ML or new/improve features. Our outsourced 3rd party vendor can be pushed to improve performance. Continuous improvement aside, how do we come up with creative (read good) ideas? 
 
-Weekly discussions across internal payments teams, platform, accommodations operations allows us to better understand where we are what blockers are there and have been moved. 
+Staying involved in what matters, discussions with vendors, colleges and the business, watching the movements of the industry and competitors. Weekly discussions across internal payments teams, platform, accommodations operations allows us to better understand where we are what blockers are there and have been moved. 
 
-So where were we?
+So right before TARR where were we?
 - COVID had lowered traffic substantially (outside impact)
-- Riskified (our vendor) was being pushed to preform better.
+- Riskified (our vendor) was being pushed to preform better, well within expectations.
 - Our model was preformant and gains slower (continuous improvement)
-- Operations had limited ability to find golden features.
-- **Platform had recently migrated all 3DS SCA flows allowing for better visibility**
+- Operations had limited ability to find or optimize features.
+- **Platform had recently migrated all SCA flows allowing for better visibility into 3DS**
 
-This Last point was the basis for trying out a new approach to unlock the good customers in declined. 3DS was historically a black box SCA improved the infrastructure for visibility. We had stable fraud rates and due to COVID the risk was higher of rejecting good traffic. 
+This Last point was the basis for trying out a new approach to unlock the good customers in declined bucket. 3DS was historically a black box SCA forced an improvement of the infrastructure increasing visibility. We had stable fraud rates and due to COVID on bakance the risk was higher of rejecting good traffic. 
 
-We considered what if we just sent all the rejected traffic to 3DS? **Terrible idea.** but  could we make it a good one. 
+We considered what if we just sent all the rejected traffic to 3DS? **Terrible idea.** but could we make it a good one. 
 
 <iframe width="768" height="432" src="https://ezekiel.nz/Widgets/sankeyColor2.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
@@ -92,13 +92,14 @@ Outside of the gain from moving the needle along we were targeting.
     - ~~3DS enrollment~~
     - 3DS pass rates (proxy)
 - **Evaluate** Evaluate if the metric could be a false positive indicator
-  - Fraud takes time to mature
-  - What are outside influences
+  - Fraud maturation
+  - Unique vs non unique
+  - Payments experiments and outside influence
 
 
 ### Mapping stakeholders
 
-We wanted to consider the impact the project would have on various teams the level of commitment required and how aligned with product goals it was. Touching on some of the key points of consideration below. 
+We wanted to consider the impact the project would have on various teams the level of commitment required and how aligned with product goals it was. Touching on some of the key teams points of consideration are listed below. 
 
 ![My picture](images/Stakeholder_Map.jpg)
 
@@ -106,15 +107,17 @@ We wanted to consider the impact the project would have on various teams the lev
 - Clearly mapped goals.
 - Increasing fraud risk with new flow.
 - Addition of technical debt.
-- Operational research into roll out
+- Expectation of operational research into roll out.
+- Own communication channel.
 
 **Payments**
 - Upstream and downstream stakeholders.
 - Potential blocker. 
-- Ensure product did not impact existing strategic markets or experiments.
+- Need to check fraud did not impact existing strategic markets or experiments.
 
 **Platform**
-- Support long term and dependent on flags.
+- Support long term technical debt.
+- Leverage newly built flags.
 
 **External**
 - Managing expectations and describing the product goals and risks clearly.
@@ -159,18 +162,35 @@ Assessing the situation:
 Taking quick actions
 - Short term scale back from 50% to 5%.
 - Discussions quickly upward to send early signal that project might be killed.
-- Opened discussion with our PSP on solution, presented with option to buy off the shelf a a solution that can be implemented on the specific call. 
+- Opened discussion with our PSP on solution, presented with option to buy off the shelf a a solution that can be implemented on the specific call.
+- Opened new analysis on potential value of the product with added data.
 
 
-- Righting the ship
+## Righting the ship
+The ship was sinking but it turned out to be a very valuable one, and caused a shift in priorities from its genisis. 
 
-Under 1 week turn around on off shelf solution. Re trigger up to 50% scale and monitor. 
+Given the flow was an MVP the roll out of rules needed to be pushed from a developer. With the increasing demands on operations analysts we re prioritized an integration of the existing rules framework. 
+
+The analysis of the potential gains if we could leverage a liability flag drove the conversation into payments. The project had provided a real increasing in unblocked traffic. This let us drive the acquisition of the off the shelf service and release a payments resource to support the API call. 
+
+In 1 week we had a turn around on off shelf solution. Allowing us to re trigger to 50% re delegate scale and monitor. Adding in a new monitoring metric for liability declines. 
+
+The ownership and communication still established the pivot empowered the success of the project into the midterm. 
 
 ---
 
-- Reflections
+## Reflections
 
-Outside normal analyst flow
+Defining the risks early and getting stakeholder engagement
+
+Misunderstanding the risk of the missing flag
+
+Outside normal analyst flow.
+
+Complacency and impact
+
+Leveraging vendor/psp to bootstrap solutions
+
 
 
 ### TARR at vend??
@@ -180,7 +200,6 @@ Well Vend is not the merchant on record, so maybe not a good idea, but your cust
 What I hope this project highlights that I do think is impactful at Vend.
 - Developing new ideas ontop of existing frameworks
 - point point
-
 
 
 A final point is maybe where is Vend going? When you consider the likes of Booking, Uber, Amazon all applying for payment service licenses the impact of owning that payment flow has immense benfits at scale. 
