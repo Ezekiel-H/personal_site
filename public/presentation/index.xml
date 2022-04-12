@@ -15,7 +15,7 @@
       <guid>http://ezekiel.nz/presentation/firn/</guid>
       <description>Overview This presentation takes two datasets provided and leveraging both snowflake and DBT demonstrates the benefits of pivoting to a modern platform. Additionally I have introduced a presentation layer using both Gitab and R to further touch on the flexiblity of using a rapid development.
 The presentation is outlines in the following way
- Approach: Data Results A/B Testing Dicussion points  Approach DBT Not wanting to reinvent the wheel I followed the standard user guide here focusing on ensuring a reproducible pattern was established.</description>
+ Approach: Data Results A/B Testing Discussion points  Approach DBT Not wanting to reinvent the wheel I followed the standard user guide here focusing on ensuring a reproducible pattern was established.</description>
     </item>
     
     <item>
