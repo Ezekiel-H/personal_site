@@ -6,7 +6,18 @@
     <description>Recent content in Presentations on Ezekiel Haggart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://ezekiel.nz/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FIRN presentation</title>
+      <link>http://ezekiel.nz/presentation/firn/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://ezekiel.nz/presentation/firn/</guid>
+      <description>Overview This presentation takes two datasets provided and leveraging both snowflake and DBT demonstrates the benefits of pivoting to a modern platform. Additionally I have introduced a presentation layer using both Gitab and R to further touch on the flexiblity of using a rapid development.
+The presentation is outlines in the following way
+ Approach: Data Results A/B Testing Discussion points  Approach DBT Not wanting to reinvent the wheel I followed the standard user guide here focusing on ensuring a reproducible pattern was established.</description>
+    </item>
+    
     <item>
       <title>Project TARR</title>
       <link>http://ezekiel.nz/presentation/tarr/</link>
