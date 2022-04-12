@@ -15,7 +15,7 @@ The presentation is outlines in the following way
 - Data
 - Results
 - A/B Testing
-- Dicussion points
+- Discussion points
 
   
 ## Approach
@@ -53,7 +53,7 @@ ANALYTICS
 
 With the plan as above DBT will pass the data from as 
 
-![]("assets/dbt_linage.png")
+![](assets/dbt_linage.png)
 
 ### Snowflake
 
@@ -63,7 +63,7 @@ The snowflake database then takes the shape as follows below with an initial set
 - [setup](https://gitlab.com/ezekiel.j.p.h/analytics/-/blob/main/analysis/snowflake/setup.sql)
 
 
-![]("assets/snowflake.png")
+![](assets/snowflake.png)
 
 ### Gitlab 
 The codebase is captured [here](https://gitlab.com/ezekiel.j.p.h/analytics). As it is a single developer working on the project I set up a simple structure of allowing for direct code commits and pushes against a feature branch and self approval into main.
