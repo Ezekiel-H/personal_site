@@ -62,6 +62,9 @@ With the plan as above DBT will pass the data from as
 
 The snowflake database then takes the shape as follows below with an initial setup piece and establishing connections to the S3 buckets that is captured with a few scripts.
 
+![](assets/snowflake.png)
+
+
 - [s3 connections](https://gitlab.com/ezekiel.j.p.h/analytics/-/blob/main/analysis/snowflake/s3_connections.sql)
 - [setup](https://gitlab.com/ezekiel.j.p.h/analytics/-/blob/main/analysis/snowflake/setup.sql)
 
