@@ -4,8 +4,11 @@ author: "Ezekiel Haggart"
 date: '2022-04-11'
 slug: FIRN
 ---
-  
+
+### [Presentation code](https://gitlab.com/ezekiel.j.p.h/analytics)
+
 ## Overview
+
 This presentation takes two datasets provided and leveraging both snowflake and DBT demonstrates the benefits of pivoting to a modern platform.
 Additionally I have introduced a presentation layer using both Gitab and R to further touch on the flexiblity of using a rapid development. 
 
@@ -63,7 +66,6 @@ The snowflake database then takes the shape as follows below with an initial set
 - [setup](https://gitlab.com/ezekiel.j.p.h/analytics/-/blob/main/analysis/snowflake/setup.sql)
 
 
-![](assets/snowflake.png)
 
 ### Gitlab 
 The codebase is captured [here](https://gitlab.com/ezekiel.j.p.h/analytics). As it is a single developer working on the project I set up a simple structure of allowing for direct code commits and pushes against a feature branch and self approval into main.
@@ -165,17 +167,94 @@ The weather dataset followed the exact same pattern apart from leveraging a stan
 All I actually want from here is weather so lets get temp, wind speed, and the weather
 
 ## Results
-Now with all the data loaded into snowflake via DBT I wanted to connect something that would be able to display it in a meaningful way. So creating a connection into R I made a few graphics to understand the following.
+Now with all the data loaded into snowflake via DBT I wanted to connect something that would be able to display it in a meaningful way. So creating a connection into R I made a few graphics to understand the posed questions.
 
-· What are the number of trips
-· What is the average duration of a trip
-· What was the distance travelled
+I wanted to use highcharter so I connected the snowflake instance to R for more fluid datacleaning ahead of presentation
+
+```{r}
+
+install.packages(c("DBI", "dplyr","dbplyr","odbc", "Rcpp"))
+library(DBI)
+library(dplyr)
+library(dbplyr)
+library(odbc)
+library(Rcpp)
+
+
+con <- DBI::dbConnect(odbc::odbc(),
+                      Driver       = "/opt/snowflake/snowflakeodbc/lib/universal/libSnowflake.dylib",
+                      Server       = "jm03779.ap-southeast-2.snowflakecomputing.com",
+                      UID          =  rstudioapi::askForPassword("Database user"),
+                      PWD          =  rstudioapi::askForPassword("Database password"),
+                      Database     = "Analytics",
+                      Warehouse    = "compute_wh",
+                      Schema       = "ads"
+)
+
+
+DBI::dbGetQuery(con,"USE ROLE TRANSFORMER;")
+DBI::dbGetQuery(con,"USE WAREHOUSE TRANSFORMING;")
+
+base_bike <- DBI::dbGetQuery(con,"SELECT * FROM ANALYTICS.ADS.BIKES_METRICS;")
+base_weather <- DBI::dbGetQuery(con,"SELECT * FROM ANALYTICS.ADS.WEATHER_METRICS;")
+base_join <- DBI::dbGetQuery(con,"SELECT * FROM ANALYTICS.ADS.RIDER_WEATHER;")
+
+#totals 
+base_bike %>%
+  na.omit() %>%
+  summarise(sum(TRIPS_COUNT), sum(DISTANCE_TOTAL), mean(DURATION_AVERAGE))
+
+```
 
 #### Number of trips
 
-#### Average trip duration
+The total number of trips over the period was *61,468,359* 
+
+
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/bike_distance.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
 
 #### Distance travelled
+
+The total distance traveleld was _(rounded for obvious reasons)_   *111,215,593*. This was achieved using the haversine function as hinted in snowflake.
+
+```
+{{ 
+    config(materialized='table', database='analytics') 
+}}
+
+-- this aggregates by hour the metrics of distance, time and totals 
+
+select 
+    date_trunc('hour', starttime) as date
+    , count(*) as trips_count
+    , sum(tripduration) as duration_total
+    , avg(tripduration) as duration_average
+    , sum(haversine(
+            start_station_latitude
+            , start_station_longitude
+            , end_station_latitude
+            , end_station_longitude
+            )) as distance_total
+    , avg(haversine(
+            start_station_latitude
+            , start_station_longitude
+            , end_station_latitude
+            , end_station_longitude
+            )) as distance_average
+
+ from {{ source('rds', 'rds_bikes') }} 
+ group by 1
+
+```
+
+
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/bike_totals.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
+
+#### Average trip duration
+
+Now this is a bit more interesting of a question. In terms of average duration the average of what? Each trip? The dataset was aggregated at the hour layer so the presentation layer passes a `DURATION_AVERAGE` column which is the average of averages. Which is *916.8* Trip Duration (seconds)
 
 
 ## A/B testing
@@ -184,8 +263,67 @@ Trying to understand if weather has an impact on ridership we need to combine th
 
 The approach I have decided to go for is using R to run a linear regression and checking for significance. 
 
+#### The data 
+We had two datasets weather and bikes data. I decided to aggregate the weather into hourly buckets and took the most prevaling type, for example if there is 2 occurances of rain and one of clear it would call the hour rain.  
+
+```
+-- this assigns a weather for any given hour, could add tempature, wind etc if needed
+
+select 
+    weather
+    , date
+from
+(
+    select
+        weather 
+        , date_trunc('hour', time) as date
+        , count(*) as n
+        , row_number() over (partition by date order by n desc) rank_number
+    from {{ source('rds', 'rds_weather') }}  
+    group by 1, 2
+
+) where rank_number = 1
+
+```
+
+Now I aggregated the riders into hour buckets as well and joined up the dataset. So question remains does the weather impact the riders. 
+
+So we have the following weather which I then grouped into 'good' and 'bad':
+
+```
+          WEATHER   WEATHER_TYPE
+1         "Clear"   "Good"
+2          "Mist"   "Bad"
+3        "Clouds"   "Good"
+4          "Rain"   "Bad"
+5          "Haze"   "Bad"
+6  "Thunderstorm"   "Bad"
+7           "Fog"   "Bad"
+8       "Drizzle"   "Bad"
+9          "Snow"   "Bad"
+10        "Smoke"   "Bad"
+11       "Squall"   "Bad"
+```
+
+Here we just want to look at the weather as there are only 24 hours in the day to get a sense of is the weather good or bad in NYC? Also doing this highlighed a data quality issue in the analysis and narrowed the date range down to 2017-03-01. 
+
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/weather.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
+
+So now lets consider the two averages are there more trips when its good weather? 
+
+<iframe width="768" height="432" src="https://ezekiel.nz/Widgets/chart_split.html" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+
+
+It looks like it does. Now to validate this I would need to construct a boolean variable off of this and check its significance as an explanation. Though I am going to stop right here.
+
+
+
 
 ## Discussion
-- Separating DBT loading scripts and running function to deliver a more stable solution.
+
+- Separating DBT loading and running function to deliver a more stable solution.
+- Using a full code based solution you can see and replicate 100% of what I have completed.
+- Native connections into R, Python will allow a positioning as a 'data plumber' and appeal to the new world.
 
 
